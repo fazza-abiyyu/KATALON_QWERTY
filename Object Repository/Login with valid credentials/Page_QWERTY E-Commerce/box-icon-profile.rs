@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>box-icon-profile</name>
+   <tag></tag>
+   <elementGuidId>f868cd3c-aade-4cc2-908e-ea8e2499ffd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and contains(concat(' ', normalize-space(@class), ' '), ' flex ')]//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' relative ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.items-center.flex div.relative</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^UT$/ >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>123731b8-1b34-4f11-97eb-7c40ce809de1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative</value>
+      <webElementGuid>9aaa4fbc-e2d1-4ee7-806e-15a14cb39d0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UT</value>
+      <webElementGuid>3d5d0dd1-8eda-496c-bd73-69d1d26f34bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2f3fe9be54eeb43c12dd94a2906b6541</value>
+      <webElementGuid>cce7709b-c723-4ede-bdc2-4eaf4ae171fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and contains(concat(' ', normalize-space(@class), ' '), ' flex ')]//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' relative ')]</value>
+      <webElementGuid>da584451-568f-4afd-9fdc-77799cc4f15d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and contains(concat(' ', normalize-space(@class), ' '), ' flex ')]//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' relative ')]</value>
+      <webElementGuid>4cff67dc-878d-440a-845c-5fa8e545f3fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'UT' or . = 'UT')]</value>
+      <webElementGuid>453faf99-1888-42fa-90ce-e3b5c0da1a75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
