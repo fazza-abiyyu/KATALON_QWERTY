@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="36.321" tests="5" passed="5" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Login" tests="5" passed="5" failures="0" errors="0" incompleted="0" skipped="0" time="36.321" timestamp="2026-05-07T04:41:11.923Z" hostname="fazza_abiyyu - 192.168.18.56" id="Test Suites/Login" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_114109/Login/20260507_114109"/>
+         <property name="logFiles" value="/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_114109/Login/20260507_114109/execution0.log, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_114109/Login/20260507_114109/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="fazza_abiyyu - 192.168.18.56"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.2.0"/>
+         <property name="browser" value="Chrome 147.0.7727.138"/>
+         <property name="userFullName" value="Muhammad Faza Abiyyu"/>
+         <property name="hostAddress" value="192.168.18.56"/>
+         <property name="sessionId" value="6425d01411f20a5fb08098a4691555f5"/>
+         <property name="projectName" value="KATALON_QWERTY"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login Verification/Login with empty input" time="6.076" classname="Test Cases/Login Verification/Login with empty input" status="PASSED">
+         <system-out><![CDATA[07-05-2026T11:41:11 - [TEST_CASE][PASSED] - Test Cases/Login Verification/Login with empty input: Test Cases/Login Verification/Login with empty input
+
+07-05-2026T11:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:41:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:41:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:41:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:41:14 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:15 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:16 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/email_field")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/email_field' is clicked on
+
+07-05-2026T11:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/email_field' is clicked on
+
+07-05-2026T11:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/password_field")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/password_field' is clicked on
+
+07-05-2026T11:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/password_field' is clicked on
+
+07-05-2026T11:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/btn_sign_in")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/page_login")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/page_login' is clicked on
+
+07-05-2026T11:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/page_login' is clicked on
+
+07-05-2026T11:41:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-05-2026T11:41:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Verification/Login with SQL-Injection" time="4.753" classname="Test Cases/Login Verification/Login with SQL-Injection" status="PASSED">
+         <system-out><![CDATA[07-05-2026T11:41:18 - [TEST_CASE][PASSED] - Test Cases/Login Verification/Login with SQL-Injection: Test Cases/Login Verification/Login with SQL-Injection
+
+07-05-2026T11:41:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:41:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:41:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:41:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:41:19 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:20 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), "' OR '1'='1"): Text '' OR '1'='1' is set on object 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:41:21 - [MESSAGE][PASSED] - Text '' OR '1'='1' is set on object 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:41:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), "Xxl7BQJ3OEM="): Text ****** has been set on object 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:41:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login")): Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/page_login' is clicked on
+
+07-05-2026T11:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/page_login' is clicked on
+
+07-05-2026T11:41:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-05-2026T11:41:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Verification/Login with valid credentials" time="14.666" classname="Test Cases/Login Verification/Login with valid credentials" status="PASSED">
+         <system-out><![CDATA[07-05-2026T11:41:22 - [TEST_CASE][PASSED] - Test Cases/Login Verification/Login with valid credentials: Test Cases/Login Verification/Login with valid credentials
+
+07-05-2026T11:41:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:41:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:41:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:41:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:41:23 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:24 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/email_field"), "test01@qwerty.com"): Text 'test01@qwerty.com' is set on object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:41:26 - [MESSAGE][PASSED] - Text 'test01@qwerty.com' is set on object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:41:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/password_field"), "WCS5/Cu8kbiZEC9y72YjlQ=="): Text ****** has been set on object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:41:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/btn_sign_in")): Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:27 - [TEST_STEP][PASSED] - click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile")): Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile' is clicked on
+
+07-05-2026T11:41:37 - [MESSAGE][WARNING] - The current locator of test object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile' was broken. Propose an alternative one: '//a[contains(@href, '/cart')]'.
+
+07-05-2026T11:41:37 - [MESSAGE][WARNING] - Waiting for element timed out
+
+07-05-2026T11:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile' is clicked on
+
+07-05-2026T11:41:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-05-2026T11:41:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Verification/Login with unregistered email" time="5.443" classname="Test Cases/Login Verification/Login with unregistered email" status="PASSED">
+         <system-out><![CDATA[07-05-2026T11:41:37 - [TEST_CASE][PASSED] - Test Cases/Login Verification/Login with unregistered email: Test Cases/Login Verification/Login with unregistered email
+
+07-05-2026T11:41:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:41:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:41:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:41:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:41:38 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:39 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/email_field"), "invalid@qwerty.com"): Text 'invalid@qwerty.com' is set on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:41:41 - [MESSAGE][PASSED] - Text 'invalid@qwerty.com' is set on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:41:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/password_field"), "0j+fvehbvZQ="): Text ****** has been set on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:41:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in")): Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password")): Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' is clicked on
+
+07-05-2026T11:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' is clicked on
+
+07-05-2026T11:41:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-05-2026T11:41:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Verification/Login with invalid credentials" time="5.323" classname="Test Cases/Login Verification/Login with invalid credentials" status="PASSED">
+         <system-out><![CDATA[07-05-2026T11:41:42 - [TEST_CASE][PASSED] - Test Cases/Login Verification/Login with invalid credentials: Test Cases/Login Verification/Login with invalid credentials
+
+07-05-2026T11:41:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:41:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:41:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:41:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:41:43 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:45 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:41:45 - [TEST_STEP][PASSED] - click(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:41:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/email_field"), "test01@qwerty.com"): Text 'test01@qwerty.com' is set on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:41:46 - [MESSAGE][PASSED] - Text 'test01@qwerty.com' is set on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:41:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/password_field"), "+VpA84TBHIYWmKVJ5trBSA=="): Text ****** has been set on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:41:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/btn_sign_in")): Object: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/msg_invalid_email_or_password")): Object: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/msg_invalid_email_or_password' is clicked on
+
+07-05-2026T11:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/msg_invalid_email_or_password' is clicked on
+
+07-05-2026T11:41:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-05-2026T11:41:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-05-2026T11:41:11 - [TEST_SUITE][PASSED] - Login: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

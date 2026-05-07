@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 147.0.7727.138,,,07-05-2026 11:05:57,07-05-2026 11:10:59,5m - 1.911s,FAILED
+,,,,,,,
+Test Cases/Login Verification/Login with empty input,Chrome 147.0.7727.138,,auth,07-05-2026 11:05:57,07-05-2026 11:06:04,6.912s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,07-05-2026 11:05:57,07-05-2026 11:06:00,2.410s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,07-05-2026 11:06:00,07-05-2026 11:06:01,1.701s,PASSED
+"click(findTestObject(""Login with empty input/Page_QWERTY E-Commerce/icon_sign_in""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:01,07-05-2026 11:06:02,1.085s,PASSED
+"click(findTestObject(""Login with empty input/Page_QWERTY E-Commerce/email_field""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:02,07-05-2026 11:06:03,0.777s,PASSED
+"click(findTestObject(""Login with empty input/Page_QWERTY E-Commerce/password_field""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:03,07-05-2026 11:06:03,0.250s,PASSED
+"click(findTestObject(""Login with empty input/Page_QWERTY E-Commerce/btn_sign_in""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:03,07-05-2026 11:06:04,0.252s,PASSED
+"click(findTestObject(""Login with empty input/Page_QWERTY E-Commerce/page_login""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:04,07-05-2026 11:06:04,0.257s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,07-05-2026 11:06:04,07-05-2026 11:06:04,0.096s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection,Chrome 147.0.7727.138,,auth,07-05-2026 11:06:04,07-05-2026 11:06:09,4.838s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,07-05-2026 11:06:04,07-05-2026 11:06:05,1.006s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,07-05-2026 11:06:05,07-05-2026 11:06:06,1.351s,PASSED
+"click(findTestObject(""Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:06,07-05-2026 11:06:07,0.483s,PASSED
+"setText(findTestObject(""Login with SQL-Injection/Page_QWERTY E-Commerce/email_field""), ""' OR '1'='1"")",Chrome 147.0.7727.138,,,07-05-2026 11:06:07,07-05-2026 11:06:08,1.099s,PASSED
+"setEncryptedText(findTestObject(""Login with SQL-Injection/Page_QWERTY E-Commerce/password_field""), ""Xxl7BQJ3OEM="")",Chrome 147.0.7727.138,,,07-05-2026 11:06:08,07-05-2026 11:06:08,0.263s,PASSED
+"click(findTestObject(""Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,07-05-2026 11:06:08,07-05-2026 11:06:08,0.265s,PASSED
+"click(findTestObject(""Login with SQL-Injection/Page_QWERTY E-Commerce/page_login""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:08,07-05-2026 11:06:09,0.252s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,07-05-2026 11:06:09,07-05-2026 11:06:09,0.087s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with valid credentials,Chrome 147.0.7727.138,,auth,07-05-2026 11:06:09,07-05-2026 11:06:43,34.455s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,07-05-2026 11:06:09,07-05-2026 11:06:10,0.907s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,07-05-2026 11:06:10,07-05-2026 11:06:10,0.646s,PASSED
+"click(findTestObject(""Login with valid credentials/Page_QWERTY E-Commerce/icon_sign_in""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:10,07-05-2026 11:06:11,1.097s,PASSED
+"setText(findTestObject(""Login with valid credentials/Page_QWERTY E-Commerce/email_field""), ""test01@qwerty.com"")",Chrome 147.0.7727.138,,,07-05-2026 11:06:11,07-05-2026 11:06:13,1.092s,PASSED
+"setEncryptedText(findTestObject(""Login with valid credentials/Page_QWERTY E-Commerce/password_field""), ""WCS5/Cu8kbiZEC9y72YjlQ=="")",Chrome 147.0.7727.138,,,07-05-2026 11:06:13,07-05-2026 11:06:13,0.253s,PASSED
+"click(findTestObject(""Login with valid credentials/Page_QWERTY E-Commerce/btn_sign_in""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:13,07-05-2026 11:06:13,0.261s,PASSED
+"click(findTestObject(""Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile""))",Chrome 147.0.7727.138,,,07-05-2026 11:06:13,07-05-2026 11:06:43,30.093s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,07-05-2026 11:06:43,07-05-2026 11:06:43,0.089s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with unregistered email,Chrome 147.0.7727.138,,auth,07-05-2026 11:08:14,07-05-2026 11:08:53,38.628s,FAILED
+"openBrowser("""")",Chrome 147.0.7727.138,,,07-05-2026 11:08:14,07-05-2026 11:08:33,18.675s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,07-05-2026 11:08:33,07-05-2026 11:08:35,1.934s,PASSED
+"click(findTestObject(""Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in""))",Chrome 147.0.7727.138,,,07-05-2026 11:08:35,07-05-2026 11:08:35,0.374s,PASSED
+"setText(findTestObject(""Login with unregistered email/Page_QWERTY E-Commerce/email_field""), ""' OR '1'='1"")",Chrome 147.0.7727.138,,,07-05-2026 11:08:35,07-05-2026 11:08:36,1.108s,PASSED
+"setEncryptedText(findTestObject(""Login with unregistered email/Page_QWERTY E-Commerce/password_field""), ""0j+fvehbvZQ="")",Chrome 147.0.7727.138,,,07-05-2026 11:08:36,07-05-2026 11:08:37,0.260s,PASSED
+"click(findTestObject(""Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in""))",Chrome 147.0.7727.138,,,07-05-2026 11:08:37,07-05-2026 11:08:37,0.249s,PASSED
+"click(findTestObject(""Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password""))",Chrome 147.0.7727.138,,,07-05-2026 11:08:37,07-05-2026 11:08:53,16.019s,FAILED
+,,,,,,,
+Test Cases/Login Verification/Login with invalid credentials,Chrome 147.0.7727.138,,auth,07-05-2026 11:10:40,07-05-2026 11:10:59,19.028s,FAILED
+"openBrowser("""")",Chrome 147.0.7727.138,,,07-05-2026 11:10:40,07-05-2026 11:10:41,1.358s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,07-05-2026 11:10:41,07-05-2026 11:10:42,1.242s,PASSED
+"click(findTestObject(""Login with invalid credentials/Page_QWERTY E-Commerce/email_field""))",Chrome 147.0.7727.138,,,07-05-2026 11:10:42,07-05-2026 11:10:59,16.424s,FAILED

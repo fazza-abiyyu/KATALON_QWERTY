@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with empty input</name>
+   <tag>auth</tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63a930ca-7561-4443-99db-88bdac19ffbd</testCaseGuid>
+</TestCaseEntity>

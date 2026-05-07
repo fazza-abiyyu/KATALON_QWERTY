@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="301.812" tests="5" passed="3" failures="2" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Login" tests="5" passed="3" failures="2" errors="0" incompleted="0" skipped="0" time="301.812" timestamp="2026-05-07T04:05:57.513Z" hostname="fazza_abiyyu - 192.168.31.33" id="Test Suites/Login" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546"/>
+         <property name="logFiles" value="/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/execution0.log, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/console0.log"/>
+         <property name="attachments" value="/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778126828047.png, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778126864218.png, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778126894800.png, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778126933430.png, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778126970156.png, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778127004577.png, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778127039975.png, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778127058982.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="fazza_abiyyu - 192.168.31.33"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.2.0"/>
+         <property name="browser" value="Chrome 147.0.7727.138"/>
+         <property name="userFullName" value="Muhammad Faza Abiyyu"/>
+         <property name="hostAddress" value="192.168.31.33"/>
+         <property name="sessionId" value="572224caa4df4ad729793b87c6a0db04"/>
+         <property name="projectName" value="KATALON_QWERTY"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login Verification/Login with empty input" time="6.912" classname="Test Cases/Login Verification/Login with empty input" status="PASSED">
+         <system-out><![CDATA[07-05-2026T11:05:57 - [TEST_CASE][PASSED] - Test Cases/Login Verification/Login with empty input: Test Cases/Login Verification/Login with empty input
+
+07-05-2026T11:05:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:05:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:05:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:06:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:06:00 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:06:01 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/email_field")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/email_field' is clicked on
+
+07-05-2026T11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/email_field' is clicked on
+
+07-05-2026T11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/password_field")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/password_field' is clicked on
+
+07-05-2026T11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/password_field' is clicked on
+
+07-05-2026T11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/btn_sign_in")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/page_login")): Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/page_login' is clicked on
+
+07-05-2026T11:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with empty input/Page_QWERTY E-Commerce/page_login' is clicked on
+
+07-05-2026T11:06:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-05-2026T11:06:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Verification/Login with SQL-Injection" time="4.838" classname="Test Cases/Login Verification/Login with SQL-Injection" status="PASSED">
+         <system-out><![CDATA[07-05-2026T11:06:04 - [TEST_CASE][PASSED] - Test Cases/Login Verification/Login with SQL-Injection: Test Cases/Login Verification/Login with SQL-Injection
+
+07-05-2026T11:06:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:06:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:06:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:06:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:06:05 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:06:06 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), "' OR '1'='1"): Text '' OR '1'='1' is set on object 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:06:08 - [MESSAGE][PASSED] - Text '' OR '1'='1' is set on object 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:06:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), "Xxl7BQJ3OEM="): Text ****** has been set on object 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:06:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login")): Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/page_login' is clicked on
+
+07-05-2026T11:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with SQL-Injection/Page_QWERTY E-Commerce/page_login' is clicked on
+
+07-05-2026T11:06:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-05-2026T11:06:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Verification/Login with valid credentials" time="34.455" classname="Test Cases/Login Verification/Login with valid credentials" status="PASSED">
+         <system-out><![CDATA[07-05-2026T11:06:09 - [TEST_CASE][PASSED] - Test Cases/Login Verification/Login with valid credentials: Test Cases/Login Verification/Login with valid credentials
+
+07-05-2026T11:06:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:06:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:06:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:06:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:06:10 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:06:10 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:06:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/email_field"), "test01@qwerty.com"): Text 'test01@qwerty.com' is set on object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:06:13 - [MESSAGE][PASSED] - Text 'test01@qwerty.com' is set on object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:06:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/password_field"), "WCS5/Cu8kbiZEC9y72YjlQ=="): Text ****** has been set on object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:06:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/btn_sign_in")): Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile")): Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile' is clicked on
+
+07-05-2026T11:06:23 - [MESSAGE][INFO] - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+
+07-05-2026T11:06:43 - [MESSAGE][INFO] - [AI Self-Healing] Found "3" possible locators:
+ [
+  {
+    "type": "CSS",
+    "value": "a[data-testid\u003d\"header-cart-link\"]",
+    "semanticLocator": "header cart link (profile/cart icon)",
+    "confidence": 0.85,
+    "reason": "Matched class/structure pattern: original object used a div with class\u003d\u0027relative\u0027 inside a parent with classes containing \u0027items-center\u0027 and \u0027flex\u0027. On the current page the only interactive element with class \u0027relative\u0027 in the header and that sits inside the items-center/flex header area is \u003ca data-testid\u003d\u0027header-cart-link\u0027\u003e — matched by data-testid and class/structural similarity."
+  },
+  {
+    "type": "CSS",
+    "value": "header .flex.items-center .relative",
+    "semanticLocator": "header icon container with class \u0027relative\u0027 inside flex items-center",
+    "confidence": 0.6,
+    "reason": "Matched DOM structure and classes from the broken object: original locator targeted an element with class \u0027relative\u0027 under an ancestor with classes containing \u0027items-center\u0027 and \u0027flex\u0027. This CSS replicates that pattern in the provided page DOM (it resolves to the header icon element with class \u0027relative\u0027)."
+  },
+  {
+    "type": "XPATH",
+    "value": "//a[@data-testid\u003d\u0027header-cart-link\u0027 and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 relative \u0027)]",
+    "semanticLocator": "XPath to header cart/profile anchor (data-testid + class \u0027relative\u0027)",
+    "confidence": 0.5,
+    "reason": "Matched attributes from object: original object had class\u003d\u0027relative\u0027 and XPath looked for element under an \u0027items-center\u0027+\u0027flex\u0027 container. This XPath uses the page\u0027s data-testid plus the \u0027relative\u0027 class to uniquely identify the corresponding element."
+  }
+]
+
+07-05-2026T11:06:43 - [MESSAGE][INFO] - [AI Self-Healing] Verifying locator: "a[data-testid="header-cart-link"]"
+
+07-05-2026T11:06:43 - [MESSAGE][INFO] - [AI Self-Healing] Found valid locator: "a[data-testid="header-cart-link"]"
+
+07-05-2026T11:06:43 - [MESSAGE][INFO] - [AI Self-Healing] Screenshot: /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/Self-healing/Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile_XPATH.png
+
+07-05-2026T11:06:43 - [MESSAGE][WARNING] - Waiting for element timed out
+
+07-05-2026T11:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile' is clicked on
+
+07-05-2026T11:06:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-05-2026T11:06:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Verification/Login with unregistered email" time="38.628" classname="Test Cases/Login Verification/Login with unregistered email" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login Verification/Login with unregistered email FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)&#xa;	at Login with unregistered email.run(Login with unregistered email:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0507_3.run(S0507_3.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' located by 'By.xpath: //*[@data-testid = 'login-error-message']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[07-05-2026T11:08:14 - [TEST_CASE][FAILED] - Test Cases/Login Verification/Login with unregistered email: Test Cases/Login Verification/Login with unregistered email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Login with unregistered email.run(Login with unregistered email:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0507_3.run(S0507_3.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' located by 'By.xpath: //*[@data-testid = 'login-error-message']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+
+07-05-2026T11:08:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:08:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-05-2026T11:08:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:08:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:08:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:08:33 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:08:35 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:08:35 - [TEST_STEP][PASSED] - click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in")): Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in' is clicked on
+
+07-05-2026T11:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/email_field"), "' OR '1'='1"): Text '' OR '1'='1' is set on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:08:36 - [MESSAGE][PASSED] - Text '' OR '1'='1' is set on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/email_field'
+
+07-05-2026T11:08:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/password_field"), "0j+fvehbvZQ="): Text ****** has been set on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:08:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/password_field'
+
+07-05-2026T11:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in")): Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in' is clicked on
+
+07-05-2026T11:08:37 - [TEST_STEP][FAILED] - click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password")): Unable to click on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Login with unregistered email.run(Login with unregistered email:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0507_3.run(S0507_3.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' located by 'By.xpath: //*[@data-testid = 'login-error-message']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script1778124367742.run(Script1778124367742.groovy:32)
+	... 16 more
+)
+
+07-05-2026T11:08:47 - [MESSAGE][INFO] - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+
+07-05-2026T11:08:53 - [MESSAGE][INFO] - [AI Self-Healing] No possible locators found
+
+07-05-2026T11:08:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Login with unregistered email.run(Login with unregistered email:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0507_3.run(S0507_3.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' located by 'By.xpath: //*[@data-testid = 'login-error-message']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script1778124367742.run(Script1778124367742.groovy:32)
+	... 16 more
+)
+[[ATTACHMENT|/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778126933430.png]]]]></system-out>
+         <system-err><![CDATA[07-05-2026T11:08:14 - [TEST_CASE][FAILED] - Test Cases/Login Verification/Login with unregistered email: Test Cases/Login Verification/Login with unregistered email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Login with unregistered email.run(Login with unregistered email:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0507_3.run(S0507_3.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password' located by 'By.xpath: //*[@data-testid = 'login-error-message']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Verification/Login with invalid credentials" time="19.028" classname="Test Cases/Login Verification/Login with invalid credentials" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login Verification/Login with invalid credentials FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)&#xa;	at Login with invalid credentials.run(Login with invalid credentials:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0507_3.run(S0507_3.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field' located by 'By.xpath: //*[@data-testid = 'login-email-input']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[07-05-2026T11:10:40 - [TEST_CASE][FAILED] - Test Cases/Login Verification/Login with invalid credentials: Test Cases/Login Verification/Login with invalid credentials FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Login with invalid credentials.run(Login with invalid credentials:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0507_3.run(S0507_3.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field' located by 'By.xpath: //*[@data-testid = 'login-email-input']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+
+07-05-2026T11:10:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2026T11:10:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-05-2026T11:10:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2026T11:10:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2026T11:10:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2026T11:10:41 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:10:42 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+07-05-2026T11:10:42 - [TEST_STEP][FAILED] - click(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/email_field")): Unable to click on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Login with invalid credentials.run(Login with invalid credentials:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0507_3.run(S0507_3.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field' located by 'By.xpath: //*[@data-testid = 'login-email-input']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script1778123772073.run(Script1778123772073.groovy:24)
+	... 16 more
+)
+
+07-05-2026T11:10:53 - [MESSAGE][INFO] - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+
+07-05-2026T11:10:58 - [MESSAGE][INFO] - [AI Self-Healing] No possible locators found
+
+07-05-2026T11:10:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Login with invalid credentials.run(Login with invalid credentials:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0507_3.run(S0507_3.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field' located by 'By.xpath: //*[@data-testid = 'login-email-input']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script1778123772073.run(Script1778123772073.groovy:24)
+	... 16 more
+)
+[[ATTACHMENT|/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260507_110546/Login/20260507_110546/1778127058982.png]]]]></system-out>
+         <system-err><![CDATA[07-05-2026T11:10:40 - [TEST_CASE][FAILED] - Test Cases/Login Verification/Login with invalid credentials: Test Cases/Login Verification/Login with invalid credentials FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Login with invalid credentials.run(Login with invalid credentials:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0507_3.run(S0507_3.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login with invalid credentials/Page_QWERTY E-Commerce/email_field' located by 'By.xpath: //*[@data-testid = 'login-email-input']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:198)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:96)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:79)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:48)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-05-2026T11:05:57 - [TEST_SUITE][FAILED] - Login: null]]></system-out>
+      <system-err><![CDATA[07-05-2026T11:05:57 - [TEST_SUITE][FAILED] - Login: null]]></system-err>
+   </testsuite>
+</testsuites>

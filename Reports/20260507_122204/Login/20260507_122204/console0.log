@@ -1,0 +1,270 @@
+2026-05-07 12:22:06.253 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-05-07 12:22:06.254 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Include/config/log.properties
+2026-05-07 12:22:06.472 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login
+2026-05-07 12:22:06.496 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Muhammad Faza Abiyyu
+2026-05-07 12:22:06.496 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KATALON_QWERTY
+2026-05-07 12:22:06.496 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = fazza_abiyyu - 192.168.18.56
+2026-05-07 12:22:06.497 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-05-07 12:22:06.497 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.18.56
+2026-05-07 12:22:06.498 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.2.0
+2026-05-07 12:22:06.540 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:06.540 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with valid credentials
+2026-05-07 12:22:06.549 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = test01@qwerty.com
+2026-05-07 12:22:06.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = User@001
+2026-05-07 12:22:06.634 DEBUG testcase.Login with valid credentials    - 1: openBrowser("")
+2026-05-07 12:22:06.700 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:06.712 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:08.534 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 329afb2b76e2562344a3753b2219b8aa
+2026-05-07 12:22:08.534 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:08.535 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:08.535 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:08.536 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:08.548 DEBUG testcase.Login with valid credentials    - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:11.217 DEBUG testcase.Login with valid credentials    - 3: click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:11.739 DEBUG testcase.Login with valid credentials    - 4: setText(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:22:13.458 DEBUG testcase.Login with valid credentials    - 5: setText(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:22:14.288 DEBUG testcase.Login with valid credentials    - 6: click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/btn_sign_in"))
+2026-05-07 12:22:14.866 DEBUG testcase.Login with valid credentials    - 7: click(findTestObject("Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile"))
+2026-05-07 12:22:16.921 DEBUG testcase.Login with valid credentials    - 8: closeBrowser()
+2026-05-07 12:22:17.014 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with valid credentials
+2026-05-07 12:22:17.020 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:17.020 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with invalid credentials
+2026-05-07 12:22:17.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = test01@qwerty.com
+2026-05-07 12:22:17.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = User@000
+2026-05-07 12:22:17.036 DEBUG t.Login with invalid credentials         - 1: openBrowser("")
+2026-05-07 12:22:17.037 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:17.038 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:17.971 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2677195b1a5667d490678e38316c39e9
+2026-05-07 12:22:17.971 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:17.972 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:17.972 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:17.972 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:17.977 DEBUG t.Login with invalid credentials         - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:19.465 DEBUG t.Login with invalid credentials         - 3: click(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:20.138 DEBUG t.Login with invalid credentials         - 4: setText(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:22:21.236 DEBUG t.Login with invalid credentials         - 5: setText(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:22:21.733 DEBUG t.Login with invalid credentials         - 6: click(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/btn_sign_in"))
+2026-05-07 12:22:21.994 DEBUG t.Login with invalid credentials         - 7: click(findTestObject("Login with invalid credentials/Page_QWERTY E-Commerce/msg_invalid_email_or_password"))
+2026-05-07 12:22:22.906 DEBUG t.Login with invalid credentials         - 8: closeBrowser()
+2026-05-07 12:22:22.992 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with invalid credentials
+2026-05-07 12:22:22.994 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:22.994 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with empty input
+2026-05-07 12:22:23.009 DEBUG testcase.Login with empty input          - 1: openBrowser("")
+2026-05-07 12:22:23.011 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:23.011 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:24.019 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e7daf64cafd822de103a1cc1f2de44a0
+2026-05-07 12:22:24.020 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:24.020 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:24.021 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:24.021 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:24.027 DEBUG testcase.Login with empty input          - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:25.851 DEBUG testcase.Login with empty input          - 3: click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:26.519 DEBUG testcase.Login with empty input          - 4: click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/email_field"))
+2026-05-07 12:22:27.300 DEBUG testcase.Login with empty input          - 5: click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/password_field"))
+2026-05-07 12:22:27.562 DEBUG testcase.Login with empty input          - 6: click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/btn_sign_in"))
+2026-05-07 12:22:27.815 DEBUG testcase.Login with empty input          - 7: click(findTestObject("Login with empty input/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:22:28.058 DEBUG testcase.Login with empty input          - 8: closeBrowser()
+2026-05-07 12:22:28.148 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with empty input
+2026-05-07 12:22:28.156 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:28.156 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with unregistered email
+2026-05-07 12:22:28.159 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = invalid@qwery.com
+2026-05-07 12:22:28.160 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = falsepass
+2026-05-07 12:22:28.171 DEBUG testcase.Login with unregistered email   - 1: openBrowser("")
+2026-05-07 12:22:28.171 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:28.172 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:28.637 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fcc7a5509b02992cdb6b6fd6f4dd6903
+2026-05-07 12:22:28.638 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:28.638 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:28.638 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:28.638 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:28.645 DEBUG testcase.Login with unregistered email   - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:31.057 DEBUG testcase.Login with unregistered email   - 3: click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:31.848 DEBUG testcase.Login with unregistered email   - 4: setText(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:22:32.841 DEBUG testcase.Login with unregistered email   - 5: setText(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:22:33.332 DEBUG testcase.Login with unregistered email   - 6: click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in"))
+2026-05-07 12:22:33.597 DEBUG testcase.Login with unregistered email   - 7: click(findTestObject("Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password"))
+2026-05-07 12:22:34.497 DEBUG testcase.Login with unregistered email   - 8: closeBrowser()
+2026-05-07 12:22:34.585 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with unregistered email
+2026-05-07 12:22:34.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:34.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:34.601 INFO  c.k.katalon.core.main.TestCaseExecutor   - email =  OR '1'='1
+2026-05-07 12:22:34.601 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (bebas)
+2026-05-07 12:22:34.614 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:22:34.615 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:34.616 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:35.598 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6d17638cb6aa0ac4a7820e1741f72520
+2026-05-07 12:22:35.598 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:35.598 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:35.598 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:35.598 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:35.602 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:37.063 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:37.850 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:22:39.139 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:22:39.623 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:22:39.889 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:22:40.132 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:22:40.218 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:40.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:40.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:40.228 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = admin' --
+2026-05-07 12:22:40.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (kosong)
+2026-05-07 12:22:40.230 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:22:40.230 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:40.231 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:40.682 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 62ef641013979f6a85371afe3f082041
+2026-05-07 12:22:40.683 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:40.683 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:40.683 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:40.683 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:40.688 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:42.686 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:43.164 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:22:44.237 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:22:44.721 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:22:44.969 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:22:45.212 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:22:45.302 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:45.306 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:45.306 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:45.309 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = admin' #
+2026-05-07 12:22:45.309 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (kosong)
+2026-05-07 12:22:45.309 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:22:45.310 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:45.310 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:46.317 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e48d776fe36c719e637559afc2f45035
+2026-05-07 12:22:46.318 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:46.318 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:46.318 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:46.318 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:46.325 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:47.726 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:48.386 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:22:49.471 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:22:49.955 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:22:50.214 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:22:50.455 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:22:50.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:50.547 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:50.548 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:50.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - email =  OR 1=1 --
+2026-05-07 12:22:50.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (bebas)
+2026-05-07 12:22:50.551 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:22:50.551 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:50.551 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:51.444 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0ece46514355de1d3adda7488c13caf0
+2026-05-07 12:22:51.444 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:51.444 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:51.445 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:51.445 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:51.449 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:53.146 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:53.612 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:22:55.439 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:22:55.917 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:22:56.160 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:22:56.405 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:22:56.494 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:56.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:22:56.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:22:56.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = " OR "1"="1
+2026-05-07 12:22:56.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (bebas)
+2026-05-07 12:22:56.502 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:22:56.502 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:22:56.502 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:22:57.500 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 67714e946bbfa428a9dd4d7186cc4444
+2026-05-07 12:22:57.500 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:22:57.500 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:22:57.500 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:22:57.500 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:22:57.503 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:22:59.259 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:22:59.820 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:23:01.071 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:23:01.873 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:23:02.118 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:23:02.374 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:23:02.460 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:02.466 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:23:02.466 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:02.469 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = ) OR ('1'='1
+2026-05-07 12:23:02.469 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (bebas)
+2026-05-07 12:23:02.470 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:23:02.471 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:23:02.472 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:23:03.366 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b6d8a820a6abcaacad97e0cf7b93a705
+2026-05-07 12:23:03.366 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:23:03.366 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:23:03.366 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:23:03.366 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:23:03.369 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:23:05.098 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:23:05.792 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:23:06.886 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:23:07.384 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:23:07.646 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:23:07.902 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:23:07.993 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:08.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:23:08.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:08.003 INFO  c.k.katalon.core.main.TestCaseExecutor   - email =  OR TRUE --
+2026-05-07 12:23:08.003 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (bebas)
+2026-05-07 12:23:08.004 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:23:08.004 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:23:08.005 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:23:08.996 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 511eabc9ee65ab0948e2e690099d8fea
+2026-05-07 12:23:08.997 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:23:08.997 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:23:08.997 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:23:08.997 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:23:09.000 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:23:10.985 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:23:11.551 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:23:12.636 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:23:13.124 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:23:13.384 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:23:13.648 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:23:13.741 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:13.746 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:23:13.746 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:13.749 INFO  c.k.katalon.core.main.TestCaseExecutor   - email =  UNION SELECT NULL, NULL --
+2026-05-07 12:23:13.749 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (bebas)
+2026-05-07 12:23:13.749 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:23:13.750 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:23:13.750 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:23:14.650 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e1a78f87ccdace93ba1e6bf00cadeeea
+2026-05-07 12:23:14.650 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:23:14.650 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:23:14.650 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:23:14.651 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:23:14.654 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:23:15.287 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:23:16.786 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:23:17.875 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:23:18.367 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:23:18.628 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:23:18.884 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:23:18.975 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:18.981 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-07 12:23:18.981 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:18.984 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = 1' AND SLEEP(5) --
+2026-05-07 12:23:18.984 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = (bebas)
+2026-05-07 12:23:18.985 DEBUG testcase.Login with SQL-Injection        - 1: openBrowser("")
+2026-05-07 12:23:18.985 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-07 12:23:18.986 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-07 12:23:19.993 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 12d1bf5346c91132d75ca3977020d7e5
+2026-05-07 12:23:19.993 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-07 12:23:19.994 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-07 12:23:19.994 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-07 12:23:19.994 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-07 12:23:19.998 DEBUG testcase.Login with SQL-Injection        - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-07 12:23:21.400 DEBUG testcase.Login with SQL-Injection        - 3: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/icon_sign_in"))
+2026-05-07 12:23:21.978 DEBUG testcase.Login with SQL-Injection        - 4: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/email_field"), email)
+2026-05-07 12:23:23.072 DEBUG testcase.Login with SQL-Injection        - 5: setText(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/password_field"), password)
+2026-05-07 12:23:23.553 DEBUG testcase.Login with SQL-Injection        - 6: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/btn_sign_in"), STOP_ON_FAILURE)
+2026-05-07 12:23:23.813 DEBUG testcase.Login with SQL-Injection        - 7: click(findTestObject("Login with SQL-Injection/Page_QWERTY E-Commerce/page_login"))
+2026-05-07 12:23:24.068 DEBUG testcase.Login with SQL-Injection        - 8: closeBrowser()
+2026-05-07 12:23:24.156 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Verification/Login with SQL-Injection
+2026-05-07 12:23:24.167 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-07 12:23:24.167 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Login
+2026-05-07 12:23:24.167 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
