@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>navbar_shop</name>
+   <tag></tag>
+   <elementGuidId>4a7d9394-46c6-473c-b01e-5fdca8d7935a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.text-sm[href=&quot;\/products&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and (@href = '/products')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=navigation >> internal:role=link[name=&quot;Shop&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cdac4dc4-5383-4e31-9750-ad8706f6bec8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm font-semibold transition-colors text-gray-400 hover:text-gray-900</value>
+      <webElementGuid>4b858d89-ad30-44bd-a8ba-1df216958cbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products</value>
+      <webElementGuid>9e706de2-6198-4cc4-80a0-c8b0df4c78e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shop</value>
+      <webElementGuid>f20518c3-d262-4efb-a1d6-133f7c504c50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c8291ad5ccc770b11fcaa4ce44fec202</value>
+      <webElementGuid>65d46c8b-44bf-49f2-8cfb-182c8b6e1781</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and (@href = '/products')]</value>
+      <webElementGuid>9a5b617e-ed39-422a-8d4b-68a47b0e3905</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and (@href = '/products')]</value>
+      <webElementGuid>549892de-2b52-4e8a-bdca-07d7267db2d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products' and (text() = 'Shop' or . = 'Shop')]</value>
+      <webElementGuid>e4411c2f-973b-4d21-8807-aa9444b115f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

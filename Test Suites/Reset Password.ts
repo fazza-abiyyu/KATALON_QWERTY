@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Reset Password</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>0a9960af-78c1-42de-b0cf-16f7683b38aa</testSuiteGuid>
+   <testCaseLink>
+      <guid>0887c3b3-6a2c-486c-b847-7163c505779c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Reset Password Verification/Reset password with invalid email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02b40a2a-b4be-4c14-8b94-451ad84e507a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a3bcdfe-08fc-4292-950f-272a70bcf561</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Reset Password Verification/Reset password with valid email and incorrect otp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3f6c8d42-e13b-474f-beaf-07117dcd3528</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4b5f6f8-105c-4a16-b5f7-7d2ed0cbdf1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9bbbfda-7ce4-4120-8a62-a44753a69857</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6ccb02d-ef62-4c99-82db-d3c466948f45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Reset Password Verification/Reset password with valid email and otp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4381ba1-5bbc-4cba-9ffe-15e7eef5d6eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d618b26-5184-4c87-84ee-a0896c87a84b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>89343b49-31af-4b3f-80b5-251744211a78</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0d18cf31-ab16-4e64-b9d6-bd725137376b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Reset Password Verification/Reset password with blank input</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da4fbcbf-2b95-4f04-8561-fc4e4a72cd93</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

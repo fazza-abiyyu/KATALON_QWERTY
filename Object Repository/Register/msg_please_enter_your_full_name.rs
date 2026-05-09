@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_please_enter_your_full_name</name>
+   <tag></tag>
+   <elementGuidId>b713e8c8-4943-4693-89db-2bf496ce89e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;register-error-message&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'register-error-message']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;register-error-message&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>18b7d98b-7fe7-4d79-b54e-3ab18b7e763d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>register-error-message</value>
+      <webElementGuid>7b671684-45d8-4105-ab34-a8616e8f7fc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-5 p-3.5 bg-red-50 border border-red-100 text-red-600 text-[13px] rounded-2xl text-center font-bold animate-in fade-in slide-in-from-top-2</value>
+      <webElementGuid>a213237c-87a4-41b1-bbaf-2836a350560c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please enter your full name.</value>
+      <webElementGuid>9d845e81-902b-4804-ba58-9516ba153857</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-cb4287ccb07da709416bdaefd6eca142</value>
+      <webElementGuid>44afbf36-2c42-4584-ac29-b178afdabaaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-error-message']</value>
+      <webElementGuid>ff61690b-e467-4f3c-a45c-e8a38d4461b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-error-message']</value>
+      <webElementGuid>a0d1fec5-bd13-43c7-93bb-494bcc370095</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@data-testid = 'register-error-message' and (text() = 'Please enter your full name.' or . = 'Please enter your full name.')]</value>
+      <webElementGuid>dd0fd0eb-eff8-4272-aab1-389d5f5ccbcc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

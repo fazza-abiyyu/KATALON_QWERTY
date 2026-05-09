@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>first_item_mailler_otp</name>
+   <tag></tag>
+   <elementGuidId>15715e74-4d84-4ed0-9d9a-8751d7b51889</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[@data-testid = 'email-item-'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;email-item-d65cbb3c-e0f1-43d9-bae3-f2adc426ac9a&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6f0360b8-e3d5-45f5-8042-ff0d96ba02b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>email-item-d65cbb3c-e0f1-43d9-bae3-f2adc426ac9a</value>
+      <webElementGuid>034b4885-7076-4b17-a6b6-9d1a09d67cb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-white border border-gray-100 rounded-3xl p-6 shadow-sm hover:shadow-md transition-shadow</value>
+      <webElementGuid>87bbd4a8-595a-4d33-b5f6-c7e0404986e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TEtest01@qwerty.comTo9/5/2026, 08.02.44QWERTY - Password Reset OTPHalo, ini adalah kode OTP Anda untuk mereset password di QWERTY: 233978. Kode ini berlaku selama 10 menit.Delivered via QWERTY SMTP Simulation</value>
+      <webElementGuid>58fe1146-0421-41d8-baaf-68d76f3d7af3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;min-h-screen bg-[#fcfcfc] text-[#111] font-sans&quot;]/div[@class=&quot;max-w-4xl mx-auto px-6 py-8&quot;]/div[@class=&quot;space-y-4&quot;]/div[@class=&quot;bg-white border border-gray-100 rounded-3xl p-6 shadow-sm hover:shadow-md transition-shadow&quot;]</value>
+      <webElementGuid>e1ad822a-4034-4b4f-b26e-5a140ee3d530</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Simulator'])[1]/following::div[4]</value>
+      <webElementGuid>6824bba5-f676-4b8a-a5af-78101eeb4fef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Join'])[1]/following::div[9]</value>
+      <webElementGuid>3fa546d1-d53d-4b14-b49c-7b157ec1fdbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div[2]/div/div</value>
+      <webElementGuid>3a7ff8da-5a08-4ec5-a605-edfa5067fea8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>(//*[@data-testid = 'email-item-'])[1]</value>
+      <webElementGuid>1c1b6ef2-fcbe-4015-b996-39fe3459dcbd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

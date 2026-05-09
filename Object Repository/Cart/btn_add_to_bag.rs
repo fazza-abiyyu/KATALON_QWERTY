@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_add_to_bag</name>
+   <tag></tag>
+   <elementGuidId>f051d5d1-fd89-403d-ae74-b157ab981f4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;add-to-cart-button&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'add-to-cart-button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;add-to-cart-button&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a478ace1-f88d-41b0-bf08-fd037a09edb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>add-to-cart-button</value>
+      <webElementGuid>c6b318c6-e9ce-4bba-8591-6e21cdc7ce88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-13 text-[14px] font-medium rounded-full transition-all bg-[#111] text-white hover:bg-[#333] disabled:bg-gray-200 disabled:text-gray-400 disabled:cursor-not-allowed</value>
+      <webElementGuid>a99a0c75-129a-484e-8c71-03d5dd8d06ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to Bag</value>
+      <webElementGuid>b5cee687-87b2-44f8-94c2-324254a36896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0c95c4596e1e29f0784327617e9adca9</value>
+      <webElementGuid>b84a8212-ca0f-4575-9f1a-58a32436e98c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'add-to-cart-button']</value>
+      <webElementGuid>b3018277-b733-4557-a57e-a27f3468fb2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'add-to-cart-button']</value>
+      <webElementGuid>da497da9-24d7-42b5-8ad6-5dc5a5dc517c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@data-testid = 'add-to-cart-button' and (text() = 'Add to Bag' or . = 'Add to Bag')]</value>
+      <webElementGuid>72b17ccf-3d71-4b8b-8e47-1e9da0108350</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

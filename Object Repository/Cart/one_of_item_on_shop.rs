@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>one_of_item_on_shop</name>
+   <tag></tag>
+   <elementGuidId>c574dc76-47ef-4de9-8ea8-f8d287f4f87f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[alt=&quot;Aviator\ Sunglasses&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@alt = 'Aviator Sunglasses']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;product-card-prod-013&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>4779a213-d527-4ec3-8422-3e1beedc2654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Aviator Sunglasses</value>
+      <webElementGuid>fe8391d8-f7cb-457f-a365-772121cdf7d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-full object-cover transition-transform duration-700 group-hover:scale-110</value>
+      <webElementGuid>ec4929cf-47ab-47cd-b855-ecf3c59d73e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&amp;w=800&amp;auto=format&amp;fit=crop</value>
+      <webElementGuid>53e2b03f-2fe6-47be-a66e-215a73df2205</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-507c1bce46c8a82655ea81b4a92db36e</value>
+      <webElementGuid>cd8d915b-6b4d-4055-89d4-b504e324af8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@alt = 'Aviator Sunglasses']</value>
+      <webElementGuid>97a78100-4628-4a49-8345-d735da4abe85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@alt = 'Aviator Sunglasses']</value>
+      <webElementGuid>1bfd93b5-c788-4eec-ba55-49478d47e609</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Aviator Sunglasses' and @src = 'https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&amp;w=800&amp;auto=format&amp;fit=crop']</value>
+      <webElementGuid>fe1e8750-679e-48c0-8a53-57edd7e61609</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

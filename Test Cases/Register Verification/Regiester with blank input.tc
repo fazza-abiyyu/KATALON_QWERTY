@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Regiester with blank input</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57f549db-629b-4299-b5e0-6010b810ec89</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcb16ee8-b5ae-4267-a053-ac162c9ca329</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcb16ee8-b5ae-4267-a053-ac162c9ca329</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

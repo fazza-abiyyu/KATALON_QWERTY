@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>status_order_paid</name>
+   <tag></tag>
+   <elementGuidId>f85d414f-d80d-43e7-b142-a0c4cfdd167e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Details'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;paid&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bc2cea5a-7769-4725-a46e-38ab599b9cab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[12px] font-bold tracking-wider uppercase px-4 py-1.5 rounded-full bg-gray-900 text-white</value>
+      <webElementGuid>2e63ad5b-adde-48c1-a49c-2c592c6e2b52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>paid</value>
+      <webElementGuid>9e59efff-c056-4280-8334-c1ad101d7c0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;max-w-3xl mx-auto px-6 py-10&quot;]/div[@class=&quot;flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8&quot;]/span[@class=&quot;text-[12px] font-bold tracking-wider uppercase px-4 py-1.5 rounded-full bg-gray-900 text-white&quot;]</value>
+      <webElementGuid>285b435e-db45-4632-8aad-d3ea9b505c35</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Details'])[1]/following::span[1]</value>
+      <webElementGuid>93904846-8525-42de-a060-65532475fe7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to Orders'])[1]/following::span[1]</value>
+      <webElementGuid>797c6bc9-6a6f-4e7b-b04b-7c6ccc6d92e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aviator Sunglasses'])[1]/preceding::span[1]</value>
+      <webElementGuid>8cccf190-7e57-4637-a77a-7a2df60b2ee8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Summary'])[1]/preceding::span[1]</value>
+      <webElementGuid>291f0958-36d9-47a3-9a43-d245e10d34a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='paid']/parent::*</value>
+      <webElementGuid>c88c98a9-c670-47d7-a726-cb818177e5c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>03189951-fe1c-4447-be8b-73dfc32872fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'paid' or . = 'paid')]</value>
+      <webElementGuid>ac2d190b-995c-4003-ad53-94eabff686ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

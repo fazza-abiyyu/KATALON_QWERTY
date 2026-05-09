@@ -1,0 +1,144 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 147.0.7727.138,,,08-05-2026 13:32:48,08-05-2026 13:34:10,1m - 21.476s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with valid credentials,Chrome 147.0.7727.138,,auth,08-05-2026 13:32:48,08-05-2026 13:32:58,9.740s,PASSED
+"DATA BINDING - {""password"":""User@001"",""email"":""test01@qwerty.com""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:32:49,08-05-2026 13:32:52,3.385s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:32:52,08-05-2026 13:32:53,0.897s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:32:53,08-05-2026 13:32:54,0.845s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:32:54,08-05-2026 13:32:55,1.172s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:32:55,08-05-2026 13:32:56,0.567s,PASSED
+"click(findTestObject(""Login/btn_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:32:56,08-05-2026 13:32:56,0.502s,PASSED
+"click(findTestObject(""Login/box_icon_profile""))",Chrome 147.0.7727.138,,,08-05-2026 13:32:56,08-05-2026 13:32:58,1.908s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:32:58,08-05-2026 13:32:58,0.116s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with invalid credentials,Chrome 147.0.7727.138,,auth,08-05-2026 13:32:58,08-05-2026 13:33:05,6.553s,PASSED
+"DATA BINDING - {""password"":""User@000"",""email"":""test01@qwerty.com""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:32:58,08-05-2026 13:33:00,1.739s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:00,08-05-2026 13:33:01,1.093s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:01,08-05-2026 13:33:01,0.510s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:01,08-05-2026 13:33:03,1.123s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:03,08-05-2026 13:33:03,0.564s,PASSED
+"click(findTestObject(""Login/btn_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:03,08-05-2026 13:33:03,0.281s,PASSED
+"click(findTestObject(""Login/msg_invalid_email_or_password""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:03,08-05-2026 13:33:05,1.112s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:05,08-05-2026 13:33:05,0.097s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with empty input,Chrome 147.0.7727.138,,auth,08-05-2026 13:33:05,08-05-2026 13:33:09,4.523s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:05,08-05-2026 13:33:06,0.859s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:06,08-05-2026 13:33:06,0.902s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:06,08-05-2026 13:33:07,0.697s,PASSED
+"click(findTestObject(""Login/email_field""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:07,08-05-2026 13:33:08,0.707s,PASSED
+"click(findTestObject(""Login/password_field""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:08,08-05-2026 13:33:08,0.296s,PASSED
+"click(findTestObject(""Login/btn_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:08,08-05-2026 13:33:08,0.281s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:08,08-05-2026 13:33:09,0.438s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:09,08-05-2026 13:33:09,0.311s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with unregistered email,Chrome 147.0.7727.138,,auth,08-05-2026 13:33:09,08-05-2026 13:33:16,7.113s,PASSED
+"DATA BINDING - {""password"":""falsepass"",""email"":""invalid@qwery.com""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:09,08-05-2026 13:33:12,2.554s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:12,08-05-2026 13:33:12,0.514s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:12,08-05-2026 13:33:13,1.170s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:13,08-05-2026 13:33:14,1.056s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:14,08-05-2026 13:33:15,0.531s,PASSED
+"click(findTestObject(""Login/btn_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:15,08-05-2026 13:33:15,0.274s,PASSED
+"click(findTestObject(""Login/msg_invalid_email_or_password""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:15,08-05-2026 13:33:16,0.904s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:16,08-05-2026 13:33:16,0.099s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (bebas),Chrome 147.0.7727.138,,auth,08-05-2026 13:33:16,08-05-2026 13:33:22,5.951s,PASSED
+"DATA BINDING - {""password"":""(bebas)"",""email"":"" OR \u00271\u0027\u003d\u00271""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:16,08-05-2026 13:33:18,1.771s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:18,08-05-2026 13:33:19,0.788s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:19,08-05-2026 13:33:20,1.082s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:20,08-05-2026 13:33:21,1.011s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:21,08-05-2026 13:33:22,0.544s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:33:22,08-05-2026 13:33:22,0.281s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:22,08-05-2026 13:33:22,0.307s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:22,08-05-2026 13:33:22,0.116s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (kosong),Chrome 147.0.7727.138,,auth,08-05-2026 13:33:22,08-05-2026 13:33:28,5.710s,PASSED
+"DATA BINDING - {""password"":""(kosong)"",""email"":""admin\u0027 --""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:22,08-05-2026 13:33:24,1.910s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:24,08-05-2026 13:33:25,0.923s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:25,08-05-2026 13:33:26,0.684s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:26,08-05-2026 13:33:27,1.021s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:27,08-05-2026 13:33:27,0.528s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:33:27,08-05-2026 13:33:28,0.266s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:28,08-05-2026 13:33:28,0.262s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:28,08-05-2026 13:33:28,0.100s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (kosong),Chrome 147.0.7727.138,,auth,08-05-2026 13:33:28,08-05-2026 13:33:33,4.728s,PASSED
+"DATA BINDING - {""password"":""(kosong)"",""email"":""admin\u0027 #""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:28,08-05-2026 13:33:29,0.864s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:29,08-05-2026 13:33:30,0.886s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:30,08-05-2026 13:33:30,0.695s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:30,08-05-2026 13:33:32,1.115s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:32,08-05-2026 13:33:32,0.527s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:33:32,08-05-2026 13:33:32,0.266s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:32,08-05-2026 13:33:33,0.265s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:33,08-05-2026 13:33:33,0.100s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (bebas),Chrome 147.0.7727.138,,auth,08-05-2026 13:33:33,08-05-2026 13:33:38,5.439s,PASSED
+"DATA BINDING - {""password"":""(bebas)"",""email"":"" OR 1\u003d1 --""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:33,08-05-2026 13:33:34,1.648s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:34,08-05-2026 13:33:35,0.824s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:35,08-05-2026 13:33:36,0.692s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:36,08-05-2026 13:33:37,1.115s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:37,08-05-2026 13:33:38,0.525s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:33:38,08-05-2026 13:33:38,0.264s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:38,08-05-2026 13:33:38,0.266s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:38,08-05-2026 13:33:38,0.098s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (bebas),Chrome 147.0.7727.138,,auth,08-05-2026 13:33:38,08-05-2026 13:33:45,6.851s,PASSED
+"DATA BINDING - {""password"":""(bebas)"",""email"":""\"" OR \""1\""\u003d\""1""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:38,08-05-2026 13:33:40,1.737s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:40,08-05-2026 13:33:41,1.425s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:41,08-05-2026 13:33:42,0.507s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:42,08-05-2026 13:33:44,1.808s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:44,08-05-2026 13:33:44,0.530s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:33:44,08-05-2026 13:33:44,0.267s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:44,08-05-2026 13:33:45,0.474s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:45,08-05-2026 13:33:45,0.097s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (bebas),Chrome 147.0.7727.138,,auth,08-05-2026 13:33:45,08-05-2026 13:33:52,7.211s,PASSED
+"DATA BINDING - {""password"":""(bebas)"",""email"":"") OR (\u00271\u0027\u003d\u00271""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:45,08-05-2026 13:33:47,1.738s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:47,08-05-2026 13:33:48,1.485s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:48,08-05-2026 13:33:49,0.783s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:49,08-05-2026 13:33:51,2.024s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:51,08-05-2026 13:33:52,0.522s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:33:52,08-05-2026 13:33:52,0.269s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:52,08-05-2026 13:33:52,0.277s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:52,08-05-2026 13:33:52,0.102s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (bebas),Chrome 147.0.7727.138,,auth,08-05-2026 13:33:52,08-05-2026 13:33:58,6.125s,PASSED
+"DATA BINDING - {""password"":""(bebas)"",""email"":"" OR TRUE --""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:52,08-05-2026 13:33:54,1.656s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:54,08-05-2026 13:33:55,1.162s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:55,08-05-2026 13:33:56,1.004s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:33:56,08-05-2026 13:33:57,1.129s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:33:57,08-05-2026 13:33:58,0.523s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:33:58,08-05-2026 13:33:58,0.269s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:58,08-05-2026 13:33:58,0.276s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:58,08-05-2026 13:33:58,0.096s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (bebas),Chrome 147.0.7727.138,,auth,08-05-2026 13:33:58,08-05-2026 13:34:04,5.534s,PASSED
+"DATA BINDING - {""password"":""(bebas)"",""email"":"" UNION SELECT NULL, NULL --""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:58,08-05-2026 13:34:00,1.771s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:34:00,08-05-2026 13:34:01,0.766s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:34:01,08-05-2026 13:34:02,0.688s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:34:02,08-05-2026 13:34:03,1.134s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:34:03,08-05-2026 13:34:03,0.522s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:34:03,08-05-2026 13:34:04,0.278s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:34:04,08-05-2026 13:34:04,0.267s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:34:04,08-05-2026 13:34:04,0.102s,PASSED
+,,,,,,,
+Test Cases/Login Verification/Login with SQL-Injection | (bebas),Chrome 147.0.7727.138,,auth,08-05-2026 13:34:04,08-05-2026 13:34:10,5.663s,PASSED
+"DATA BINDING - {""password"":""(bebas)"",""email"":""1\u0027 AND SLEEP(5) --""}",,,,,,,
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:34:04,08-05-2026 13:34:06,1.753s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:34:06,08-05-2026 13:34:07,0.906s,PASSED
+"click(findTestObject(""Login/icon_sign_in""))",Chrome 147.0.7727.138,,,08-05-2026 13:34:07,08-05-2026 13:34:07,0.687s,PASSED
+"setText(findTestObject(""Login/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:34:07,08-05-2026 13:34:08,1.149s,PASSED
+"setText(findTestObject(""Login/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:34:08,08-05-2026 13:34:09,0.524s,PASSED
+"click(findTestObject(""Login/btn_sign_in""), STOP_ON_FAILURE)",Chrome 147.0.7727.138,,,08-05-2026 13:34:09,08-05-2026 13:34:09,0.266s,PASSED
+"click(findTestObject(""Login/page_login""))",Chrome 147.0.7727.138,,,08-05-2026 13:34:09,08-05-2026 13:34:10,0.270s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:34:10,08-05-2026 13:34:10,0.100s,PASSED

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_successfully_send_otp</name>
+   <tag></tag>
+   <elementGuidId>5cc1ec20-14ab-4d3f-aaac-9ffd43a98d57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-4.rounded-xl.text-sm.font-medium.mb-6.bg-gray-900.text-white</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;forgot-password-message&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a7bea8ee-8f34-4d9c-9a0d-66f24ede26ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>forgot-password-message</value>
+      <webElementGuid>364842ef-3a87-4bf1-98fc-ddb9ccb07b92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-4 rounded-xl text-sm font-medium mb-6 bg-gray-900 text-white</value>
+      <webElementGuid>72b14a35-9e8c-4899-a238-b07d970b0898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OTP has been sent to your email (check terminal or simulator)</value>
+      <webElementGuid>4f9a0e51-63fd-4f5a-9c8f-200c2244f6e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;min-h-[80vh] flex items-center justify-center px-4 py-12&quot;]/div[@class=&quot;w-full max-w-md&quot;]/div[@class=&quot;p-4 rounded-xl text-sm font-medium mb-6 bg-gray-900 text-white&quot;]</value>
+      <webElementGuid>c3c481d2-d1ae-45ce-90dc-a4795c71400d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::div[1]</value>
+      <webElementGuid>d0487559-6381-4959-bbdb-4ce2c309c364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to Login'])[1]/following::div[2]</value>
+      <webElementGuid>ce0d0282-9cf2-4276-a03b-4d27c39b7e34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[1]/preceding::div[1]</value>
+      <webElementGuid>e49711bb-534f-48f9-8654-428358e6b7e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send OTP'])[1]/preceding::div[3]</value>
+      <webElementGuid>6e5170df-6623-4a1d-89d3-d75917aeb9c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OTP has been sent to your email (check terminal or simulator)']/parent::*</value>
+      <webElementGuid>638b75c3-8fc7-41f4-b6a8-9dd867a3e339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]</value>
+      <webElementGuid>52a6685d-bde4-40a1-a087-07a874cdb16c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@data-testid = 'forgot-password-message' and (text() = 'OTP has been sent to your email (check terminal or simulator)' or . = 'OTP has been sent to your email (check terminal or simulator)')]</value>
+      <webElementGuid>42a52622-0a21-4d18-8733-60eeba6a1ce9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/Auth",
+  "name": "Auth",
+  "reportFolder": "/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260508_133241/Auth/20260508_133241",
+  "startTime": 1778221965716,
+  "endTime": 1778222050118,
+  "totalPassedTestCases": "17",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "17",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

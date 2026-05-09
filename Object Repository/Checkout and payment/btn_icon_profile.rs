@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_icon_profile</name>
+   <tag></tag>
+   <elementGuidId>537c70d0-dbc5-4d93-b732-3b27cd89fcb4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-testid = 'user-profile-button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;user-profile-button&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ad73b2c5-120c-4daf-8bd8-1d9f5d8b579e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>user-profile-button</value>
+      <webElementGuid>c9786fd7-7eff-4cec-b87c-9405f3b1d500</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-2 p-1 rounded-full hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-100</value>
+      <webElementGuid>2be4096e-54a0-41de-8c10-90197a3cbe12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UT</value>
+      <webElementGuid>148e6097-7d41-4e9f-9628-fed207cae340</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/header[@class=&quot;sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100&quot;]/div[@class=&quot;max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between&quot;]/div[@class=&quot;flex items-center gap-2 sm:gap-4&quot;]/div[@class=&quot;flex items-center gap-2 sm:gap-4&quot;]/div[@class=&quot;relative&quot;]/button[@class=&quot;flex items-center gap-2 p-1 rounded-full hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-100&quot;]</value>
+      <webElementGuid>78dfa123-c490-408d-9cc1-cb061205bc08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[1]/following::button[1]</value>
+      <webElementGuid>c7087309-8bdb-4508-9f7c-127b2b6de4ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::button[1]</value>
+      <webElementGuid>52d1dfe0-594c-4a50-91a4-dfb92c2f6a8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Settings'])[1]/preceding::button[1]</value>
+      <webElementGuid>a45a944e-dc31-4c9d-8a7f-1013e9420a42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button</value>
+      <webElementGuid>2cbac063-19ec-43b0-9491-e6bc3f0407bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@data-testid = 'user-profile-button']</value>
+      <webElementGuid>79491062-5154-45ff-8145-0de04c2c7358</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

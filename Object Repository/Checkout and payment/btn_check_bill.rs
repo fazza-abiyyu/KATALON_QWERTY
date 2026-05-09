@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_check_bill</name>
+   <tag></tag>
+   <elementGuidId>a231454d-9f10-4848-8e1b-d6aa47806487</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Cek Tagihan&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f14ff859-9b95-4fe8-be3f-970b5032fd4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>839ca626-2f61-462c-8bf6-013780cf71ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full flex items-center justify-center gap-2 px-6 py-4 bg-blue-600 text-white text-[15px] font-bold rounded-xl hover:bg-blue-700 disabled:bg-blue-300 disabled:cursor-not-allowed transition-all shadow-md active:scale-95</value>
+      <webElementGuid>e460096a-f3e7-496b-b348-66a4073ebcfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cek Tagihan</value>
+      <webElementGuid>f137d5b6-c115-40ed-b464-ab22c2474223</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;max-w-md mx-auto px-6 py-16&quot;]/div[@class=&quot;bg-white border border-gray-200 rounded-3xl shadow-xl overflow-hidden&quot;]/div[@class=&quot;p-8&quot;]/form[1]/button[@class=&quot;w-full flex items-center justify-center gap-2 px-6 py-4 bg-blue-600 text-white text-[15px] font-bold rounded-xl hover:bg-blue-700 disabled:bg-blue-300 disabled:cursor-not-allowed transition-all shadow-md active:scale-95&quot;]</value>
+      <webElementGuid>5ab7e3fa-0ab5-4725-a6ef-06e8d754181d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>c6282d6a-f6ec-4463-9604-648b83aad11b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Virtual Account'])[1]/following::button[1]</value>
+      <webElementGuid>b700e729-04b8-48af-8fdd-9445cbdfc569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QWERTY Bank ATM'])[1]/following::button[1]</value>
+      <webElementGuid>bdd4b91d-85fd-462f-90de-f32dbafdbb54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QWERTY'])[2]/preceding::button[1]</value>
+      <webElementGuid>6f6b499d-cccf-4146-8a55-3b7102ed24ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[2]/preceding::button[1]</value>
+      <webElementGuid>9e144e60-009a-454b-9cfd-74e4ccc3b6cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cek Tagihan']/parent::*</value>
+      <webElementGuid>9d443d32-ef9a-4544-a408-3fb8cdb7d8ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>bf939944-bd13-41a9-ad81-ebc139666b25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Cek Tagihan' or . = 'Cek Tagihan')]</value>
+      <webElementGuid>7833edaf-5e7b-4524-be70-5bffbdc82db1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Chrome 147.0.7727.138,,,08-05-2026 13:32:48,08-05-2026 13:33:23,34.908s,PASSED
+,,,,,,,
+Test Cases/Register Verification/Register with email exists,Chrome 147.0.7727.138,,auth,08-05-2026 13:32:48,08-05-2026 13:33:00,11.485s,PASSED
+"DATA BINDING - {""password"":""User@001"",""email"":""test01@qwerty.com""}",,,,,,,
+"firstNames = [""Fazza"", ""Lin"", ""Kai"", ""Zhen"", ""Alya""]",Chrome 147.0.7727.138,,,08-05-2026 13:32:49,08-05-2026 13:32:49,0.003s,PASSED
+"lastNames = [""Chen"", ""Wijaya"", ""Putra"", ""Li"", ""Santoso""]",Chrome 147.0.7727.138,,,08-05-2026 13:32:49,08-05-2026 13:32:49,0.002s,PASSED
+randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())],Chrome 147.0.7727.138,,,08-05-2026 13:32:49,08-05-2026 13:32:49,0.017s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:32:49,08-05-2026 13:32:53,4.421s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:32:53,08-05-2026 13:32:54,1.201s,PASSED
+"click(findTestObject(""Register/icon_sign_up""))",Chrome 147.0.7727.138,,,08-05-2026 13:32:54,08-05-2026 13:32:55,0.395s,PASSED
+"setText(findTestObject(""Register/full_name_field""), randomFullName)",Chrome 147.0.7727.138,,,08-05-2026 13:32:55,08-05-2026 13:32:56,1.090s,PASSED
+"setText(findTestObject(""Register/email_field""), email)",Chrome 147.0.7727.138,,,08-05-2026 13:32:56,08-05-2026 13:32:57,0.674s,PASSED
+"setText(findTestObject(""Register/password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:32:57,08-05-2026 13:32:58,1.066s,PASSED
+"setText(findTestObject(""Register/verify_password_field""), password)",Chrome 147.0.7727.138,,,08-05-2026 13:32:58,08-05-2026 13:32:58,0.752s,PASSED
+"click(findTestObject(""Register/btn_create_account""))",Chrome 147.0.7727.138,,,08-05-2026 13:32:58,08-05-2026 13:32:59,0.304s,PASSED
+"click(findTestObject(""Register/msg_email_already_registered""))",Chrome 147.0.7727.138,,,08-05-2026 13:32:59,08-05-2026 13:33:00,1.118s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:00,08-05-2026 13:33:00,0.117s,PASSED
+,,,,,,,
+Test Cases/Register Verification/Regiester with valid requirements,Chrome 147.0.7727.138,,auth,08-05-2026 13:33:00,08-05-2026 13:33:09,9.276s,PASSED
+randomEmail = test$System.currentTimeMillis()@qwerty.com,Chrome 147.0.7727.138,,,08-05-2026 13:33:00,08-05-2026 13:33:00,0.003s,PASSED
+"firstNames = [""Fazza"", ""Lin"", ""Kai"", ""Zhen"", ""Alya""]",Chrome 147.0.7727.138,,,08-05-2026 13:33:00,08-05-2026 13:33:00,0.001s,PASSED
+"lastNames = [""Chen"", ""Wijaya"", ""Putra"", ""Li"", ""Santoso""]",Chrome 147.0.7727.138,,,08-05-2026 13:33:00,08-05-2026 13:33:00,0.001s,PASSED
+randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())],Chrome 147.0.7727.138,,,08-05-2026 13:33:00,08-05-2026 13:33:00,0.000s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:00,08-05-2026 13:33:02,2.224s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:02,08-05-2026 13:33:03,1.087s,PASSED
+"click(findTestObject(""Register/icon_sign_up""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:03,08-05-2026 13:33:04,0.703s,PASSED
+"setText(findTestObject(""Register/full_name_field""), randomFullName)",Chrome 147.0.7727.138,,,08-05-2026 13:33:04,08-05-2026 13:33:05,1.204s,PASSED
+"setText(findTestObject(""Register/email_field""), randomEmail)",Chrome 147.0.7727.138,,,08-05-2026 13:33:05,08-05-2026 13:33:06,0.566s,PASSED
+"setEncryptedText(findTestObject(""Register/password_field""), ""NwihNemifflwzNshSAiWUA=="")",Chrome 147.0.7727.138,,,08-05-2026 13:33:06,08-05-2026 13:33:06,0.295s,PASSED
+"setEncryptedText(findTestObject(""Register/verify_password_field""), ""NwihNemifflwzNshSAiWUA=="")",Chrome 147.0.7727.138,,,08-05-2026 13:33:06,08-05-2026 13:33:07,0.488s,PASSED
+"click(findTestObject(""Register/btn_create_account""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:07,08-05-2026 13:33:07,0.278s,PASSED
+"click(findTestObject(""Register/msg_account_successfuly_created""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:07,08-05-2026 13:33:09,1.782s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:09,08-05-2026 13:33:09,0.592s,PASSED
+,,,,,,,
+Test Cases/Register Verification/Regiester with blank input,Chrome 147.0.7727.138,,,08-05-2026 13:33:09,08-05-2026 13:33:16,6.808s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:09,08-05-2026 13:33:12,2.556s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:12,08-05-2026 13:33:13,1.153s,PASSED
+"click(findTestObject(""Register/icon_sign_up""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:13,08-05-2026 13:33:13,0.545s,PASSED
+"click(findTestObject(""Register/full_name_field""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:13,08-05-2026 13:33:14,0.604s,PASSED
+"click(findTestObject(""Register/email_field""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:14,08-05-2026 13:33:14,0.295s,PASSED
+"click(findTestObject(""Register/password_field""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:14,08-05-2026 13:33:15,0.476s,PASSED
+"click(findTestObject(""Register/verify_password_field""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:15,08-05-2026 13:33:15,0.280s,PASSED
+"click(findTestObject(""Register/btn_create_account""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:15,08-05-2026 13:33:15,0.286s,PASSED
+"click(findTestObject(""Register/msg_please_enter_your_full_name""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:15,08-05-2026 13:33:16,0.475s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:16,08-05-2026 13:33:16,0.098s,PASSED
+,,,,,,,
+Test Cases/Register Verification/Regiester with invalid requirements,Chrome 147.0.7727.138,,auth,08-05-2026 13:33:16,08-05-2026 13:33:23,7.087s,PASSED
+randomInvalidEmail = test$System.currentTimeMillis().com,Chrome 147.0.7727.138,,,08-05-2026 13:33:16,08-05-2026 13:33:16,0.001s,PASSED
+"firstNames = [""Fazza"", ""Lin"", ""Kai"", ""Zhen"", ""Alya""]",Chrome 147.0.7727.138,,,08-05-2026 13:33:16,08-05-2026 13:33:16,0.001s,PASSED
+"lastNames = [""Chen"", ""Wijaya"", ""Putra"", ""Li"", ""Santoso""]",Chrome 147.0.7727.138,,,08-05-2026 13:33:16,08-05-2026 13:33:16,0.001s,PASSED
+randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())],Chrome 147.0.7727.138,,,08-05-2026 13:33:16,08-05-2026 13:33:16,0.000s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,08-05-2026 13:33:16,08-05-2026 13:33:18,1.819s,PASSED
+"navigateToUrl(""https://qwerty.abiyyu.xyz/"")",Chrome 147.0.7727.138,,,08-05-2026 13:33:18,08-05-2026 13:33:19,1.047s,PASSED
+"click(findTestObject(""Register/icon_sign_up""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:19,08-05-2026 13:33:20,0.888s,PASSED
+"setText(findTestObject(""Register/full_name_field""), randomFullName)",Chrome 147.0.7727.138,,,08-05-2026 13:33:20,08-05-2026 13:33:21,0.966s,PASSED
+"setText(findTestObject(""Register/email_field""), randomInvalidEmail)",Chrome 147.0.7727.138,,,08-05-2026 13:33:21,08-05-2026 13:33:21,0.536s,PASSED
+"setEncryptedText(findTestObject(""Register/password_field""), ""f7IgQFd4qQo="")",Chrome 147.0.7727.138,,,08-05-2026 13:33:21,08-05-2026 13:33:22,0.304s,PASSED
+"click(findTestObject(""Register/btn_create_account""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:22,08-05-2026 13:33:22,0.592s,PASSED
+"click(findTestObject(""Register/msg_please_enter_a_valid_email_address""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:22,08-05-2026 13:33:23,0.500s,PASSED
+"click(findTestObject(""Register/msg_validation_email_field""))",Chrome 147.0.7727.138,,,08-05-2026 13:33:23,08-05-2026 13:33:23,0.277s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,08-05-2026 13:33:23,08-05-2026 13:33:23,0.122s,PASSED

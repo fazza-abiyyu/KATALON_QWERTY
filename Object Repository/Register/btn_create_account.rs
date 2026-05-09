@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_create_account</name>
+   <tag></tag>
+   <elementGuidId>55e0fa34-bcda-4e76-a6fd-0160f527357a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;register-submit-button&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'register-submit-button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;register-submit-button&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c3efb23b-c791-481c-8b27-3995dfbce35a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>2ad0356c-0cf7-4021-9442-031e58d9e83b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>register-submit-button</value>
+      <webElementGuid>177357f2-71ae-47d9-895f-fda958c4e39f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full py-3.5 bg-gray-900 text-white text-sm font-bold rounded-xl hover:bg-black transition-all mt-4 active:scale-[0.98] shadow-lg shadow-gray-200</value>
+      <webElementGuid>3d03e3e8-448b-4d9f-96f9-1168a2dbb49e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create account</value>
+      <webElementGuid>48694bd4-5fde-4f1f-a227-4ff55a75b3c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f7e5770d70185c01439d03e36008422b</value>
+      <webElementGuid>11d65629-27dd-4470-9460-6e027adb493f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-submit-button']</value>
+      <webElementGuid>982c8aa8-ad57-470d-a12e-37c8c4f154e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-submit-button']</value>
+      <webElementGuid>219459ac-33a5-40c0-8dc1-b8851accf8a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @data-testid = 'register-submit-button' and (text() = 'Create account' or . = 'Create account')]</value>
+      <webElementGuid>7f8acd3a-89cc-4665-8139-a76193b03604</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

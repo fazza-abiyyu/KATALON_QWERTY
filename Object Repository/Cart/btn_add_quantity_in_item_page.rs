@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_add_quantity_in_item_page</name>
+   <tag></tag>
+   <elementGuidId>145469e9-6723-42c0-991c-14a0aff09425</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;qty-plus&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'qty-plus']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;qty-plus&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>978d35ab-df2c-4b0e-a3b2-d4f6fb4482df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>qty-plus</value>
+      <webElementGuid>ea268d87-6ec2-42b1-8ca2-2d2ab56ff29b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-10 h-10 flex items-center justify-center text-gray-400 hover:text-[#111] text-lg</value>
+      <webElementGuid>53e7da6b-39c9-4528-a4a9-b1e9be810ed0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+</value>
+      <webElementGuid>59af8a81-88b3-4973-b78a-1d3b4a3a7876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1d23bfef274864313398bf9dbc27731a</value>
+      <webElementGuid>e05840d6-481a-4213-a542-e1b1390106b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'qty-plus']</value>
+      <webElementGuid>ffdd9b2f-2be3-48cb-897f-37f953b7c2fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'qty-plus']</value>
+      <webElementGuid>fc114758-2e35-4776-ad4d-f8d790bcc340</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@data-testid = 'qty-plus' and (text() = '+' or . = '+')]</value>
+      <webElementGuid>f8c89570-4213-4c02-b734-7f8e1903f4a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

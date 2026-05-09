@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_user_not_found</name>
+   <tag></tag>
+   <elementGuidId>f07fe4f5-49a2-45c8-99b7-b523e7c35b63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-4.rounded-xl.text-sm.font-medium.mb-6.bg-red-50.text-red-600</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;forgot-password-message&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>11cc9a0c-507d-43f9-a2b6-d73227685c4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>forgot-password-message</value>
+      <webElementGuid>1fdcdfc9-fe83-410b-b7e4-27f61c6d7914</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-4 rounded-xl text-sm font-medium mb-6 bg-red-50 text-red-600</value>
+      <webElementGuid>fe57a2e8-04b6-4b2c-8789-c42500847c1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User not found</value>
+      <webElementGuid>6c711de3-32e7-4079-8d07-3d94cbff7bae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;min-h-[80vh] flex items-center justify-center px-4 py-12&quot;]/div[@class=&quot;w-full max-w-md&quot;]/div[@class=&quot;p-4 rounded-xl text-sm font-medium mb-6 bg-red-50 text-red-600&quot;]</value>
+      <webElementGuid>7c60aa9a-5a21-49cc-b41f-8807c03e6a0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::div[1]</value>
+      <webElementGuid>4d2809a4-d3d1-448d-8519-f765f37f6568</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to Login'])[1]/following::div[2]</value>
+      <webElementGuid>218d555d-a9c5-42ad-8dcf-4337b1b0b143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[1]/preceding::div[1]</value>
+      <webElementGuid>4929a7d6-6e9f-42d2-aa57-cef720274984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send OTP'])[1]/preceding::div[3]</value>
+      <webElementGuid>e4542222-5213-4ab5-adad-b8edd07e77a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='User not found']/parent::*</value>
+      <webElementGuid>7de7f6e3-aecc-44ab-a6ce-04690448a709</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]</value>
+      <webElementGuid>538f4140-b5d2-42ce-a0fc-3384d7dafd29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@data-testid = 'forgot-password-message' and (text() = 'User not found' or . = 'User not found')]</value>
+      <webElementGuid>f7be0c35-fa65-4ed3-95ca-6a644bf8d0c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

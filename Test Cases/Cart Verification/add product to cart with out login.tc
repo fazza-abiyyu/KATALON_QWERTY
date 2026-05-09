@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add product to cart with out login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e56346ed-2cfb-4828-98cf-e06f5e464b09</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e29858c-3fce-4c54-a076-03828cb263f1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e29858c-3fce-4c54-a076-03828cb263f1</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

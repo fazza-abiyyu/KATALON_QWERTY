@@ -1,0 +1,105 @@
+2026-05-08 13:32:48.158 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-05-08 13:32:48.161 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Include/config/log.properties
+2026-05-08 13:32:48.629 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Register
+2026-05-08 13:32:48.702 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Muhammad Faza Abiyyu
+2026-05-08 13:32:48.703 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KATALON_QWERTY
+2026-05-08 13:32:48.704 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = fazza_abiyyu - 192.168.18.51
+2026-05-08 13:32:48.705 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-05-08 13:32:48.706 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.18.51
+2026-05-08 13:32:48.706 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.2.0
+2026-05-08 13:32:48.894 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-08 13:32:48.895 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Verification/Register with email exists
+2026-05-08 13:32:48.940 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = test01@qwerty.com
+2026-05-08 13:32:48.941 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = User@001
+2026-05-08 13:32:49.211 DEBUG testcase.Register with email exists      - 1: firstNames = ["Fazza", "Lin", "Kai", "Zhen", "Alya"]
+2026-05-08 13:32:49.214 DEBUG testcase.Register with email exists      - 2: lastNames = ["Chen", "Wijaya", "Putra", "Li", "Santoso"]
+2026-05-08 13:32:49.217 DEBUG testcase.Register with email exists      - 3: randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())]
+2026-05-08 13:32:49.234 DEBUG testcase.Register with email exists      - 4: openBrowser("")
+2026-05-08 13:32:49.427 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-08 13:32:49.461 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-08 13:32:53.617 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3aa57d0d74efa6ead9389fcf45ba6872
+2026-05-08 13:32:53.619 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-08 13:32:53.620 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-08 13:32:53.620 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-08 13:32:53.625 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-08 13:32:53.655 DEBUG testcase.Register with email exists      - 5: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-08 13:32:54.857 DEBUG testcase.Register with email exists      - 6: click(findTestObject("Register/icon_sign_up"))
+2026-05-08 13:32:55.255 DEBUG testcase.Register with email exists      - 7: setText(findTestObject("Register/full_name_field"), randomFullName)
+2026-05-08 13:32:56.346 DEBUG testcase.Register with email exists      - 8: setText(findTestObject("Register/email_field"), email)
+2026-05-08 13:32:57.020 DEBUG testcase.Register with email exists      - 9: setText(findTestObject("Register/password_field"), password)
+2026-05-08 13:32:58.086 DEBUG testcase.Register with email exists      - 10: setText(findTestObject("Register/verify_password_field"), password)
+2026-05-08 13:32:58.839 DEBUG testcase.Register with email exists      - 11: click(findTestObject("Register/btn_create_account"))
+2026-05-08 13:32:59.142 DEBUG testcase.Register with email exists      - 12: click(findTestObject("Register/msg_email_already_registered"))
+2026-05-08 13:33:00.261 DEBUG testcase.Register with email exists      - 13: closeBrowser()
+2026-05-08 13:33:00.380 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Verification/Register with email exists
+2026-05-08 13:33:00.384 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-08 13:33:00.384 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Verification/Regiester with valid requirements
+2026-05-08 13:33:00.430 DEBUG t.Regiester with valid requirements      - 1: randomEmail = test$System.currentTimeMillis()@qwerty.com
+2026-05-08 13:33:00.433 DEBUG t.Regiester with valid requirements      - 2: firstNames = ["Fazza", "Lin", "Kai", "Zhen", "Alya"]
+2026-05-08 13:33:00.434 DEBUG t.Regiester with valid requirements      - 3: lastNames = ["Chen", "Wijaya", "Putra", "Li", "Santoso"]
+2026-05-08 13:33:00.434 DEBUG t.Regiester with valid requirements      - 4: randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())]
+2026-05-08 13:33:00.435 DEBUG t.Regiester with valid requirements      - 5: openBrowser("")
+2026-05-08 13:33:00.437 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-08 13:33:00.438 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-08 13:33:02.647 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6afc085ddee8f17ecbf9f932086a6777
+2026-05-08 13:33:02.648 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-08 13:33:02.648 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-08 13:33:02.648 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-08 13:33:02.649 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-08 13:33:02.659 DEBUG t.Regiester with valid requirements      - 6: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-08 13:33:03.747 DEBUG t.Regiester with valid requirements      - 7: click(findTestObject("Register/icon_sign_up"))
+2026-05-08 13:33:04.451 DEBUG t.Regiester with valid requirements      - 8: setText(findTestObject("Register/full_name_field"), randomFullName)
+2026-05-08 13:33:05.655 DEBUG t.Regiester with valid requirements      - 9: setText(findTestObject("Register/email_field"), randomEmail)
+2026-05-08 13:33:06.222 DEBUG t.Regiester with valid requirements      - 10: setEncryptedText(findTestObject("Register/password_field"), "NwihNemifflwzNshSAiWUA==")
+2026-05-08 13:33:06.517 DEBUG t.Regiester with valid requirements      - 11: setEncryptedText(findTestObject("Register/verify_password_field"), "NwihNemifflwzNshSAiWUA==")
+2026-05-08 13:33:07.005 DEBUG t.Regiester with valid requirements      - 12: click(findTestObject("Register/btn_create_account"))
+2026-05-08 13:33:07.283 DEBUG t.Regiester with valid requirements      - 13: click(findTestObject("Register/msg_account_successfuly_created"))
+2026-05-08 13:33:09.065 DEBUG t.Regiester with valid requirements      - 14: closeBrowser()
+2026-05-08 13:33:09.659 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Verification/Regiester with valid requirements
+2026-05-08 13:33:09.662 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-08 13:33:09.663 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Verification/Regiester with blank input
+2026-05-08 13:33:09.696 DEBUG testcase.Regiester with blank input      - 1: openBrowser("")
+2026-05-08 13:33:09.698 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-08 13:33:09.699 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-08 13:33:12.236 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2ccb48885aa89c347b6c0aa40d23c89d
+2026-05-08 13:33:12.237 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-08 13:33:12.237 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-08 13:33:12.237 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-08 13:33:12.237 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-08 13:33:12.252 DEBUG testcase.Regiester with blank input      - 2: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-08 13:33:13.405 DEBUG testcase.Regiester with blank input      - 3: click(findTestObject("Register/icon_sign_up"))
+2026-05-08 13:33:13.954 DEBUG testcase.Regiester with blank input      - 4: click(findTestObject("Register/full_name_field"))
+2026-05-08 13:33:14.559 DEBUG testcase.Regiester with blank input      - 5: click(findTestObject("Register/email_field"))
+2026-05-08 13:33:14.855 DEBUG testcase.Regiester with blank input      - 6: click(findTestObject("Register/password_field"))
+2026-05-08 13:33:15.331 DEBUG testcase.Regiester with blank input      - 7: click(findTestObject("Register/verify_password_field"))
+2026-05-08 13:33:15.611 DEBUG testcase.Regiester with blank input      - 8: click(findTestObject("Register/btn_create_account"))
+2026-05-08 13:33:15.897 DEBUG testcase.Regiester with blank input      - 9: click(findTestObject("Register/msg_please_enter_your_full_name"))
+2026-05-08 13:33:16.372 DEBUG testcase.Regiester with blank input      - 10: closeBrowser()
+2026-05-08 13:33:16.471 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Verification/Regiester with blank input
+2026-05-08 13:33:16.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-08 13:33:16.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Verification/Regiester with invalid requirements
+2026-05-08 13:33:16.502 DEBUG t.Regiester with invalid requirements    - 1: randomInvalidEmail = test$System.currentTimeMillis().com
+2026-05-08 13:33:16.503 DEBUG t.Regiester with invalid requirements    - 2: firstNames = ["Fazza", "Lin", "Kai", "Zhen", "Alya"]
+2026-05-08 13:33:16.504 DEBUG t.Regiester with invalid requirements    - 3: lastNames = ["Chen", "Wijaya", "Putra", "Li", "Santoso"]
+2026-05-08 13:33:16.505 DEBUG t.Regiester with invalid requirements    - 4: randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())]
+2026-05-08 13:33:16.505 DEBUG t.Regiester with invalid requirements    - 5: openBrowser("")
+2026-05-08 13:33:16.506 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-08 13:33:16.508 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-08 13:33:18.316 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2ca8fd969785e790a6d1fbc2833afae7
+2026-05-08 13:33:18.317 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.138
+2026-05-08 13:33:18.317 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-08 13:33:18.317 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-08 13:33:18.317 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-08 13:33:18.324 DEBUG t.Regiester with invalid requirements    - 6: navigateToUrl("https://qwerty.abiyyu.xyz/")
+2026-05-08 13:33:19.371 DEBUG t.Regiester with invalid requirements    - 7: click(findTestObject("Register/icon_sign_up"))
+2026-05-08 13:33:20.261 DEBUG t.Regiester with invalid requirements    - 8: setText(findTestObject("Register/full_name_field"), randomFullName)
+2026-05-08 13:33:21.228 DEBUG t.Regiester with invalid requirements    - 9: setText(findTestObject("Register/email_field"), randomInvalidEmail)
+2026-05-08 13:33:21.764 DEBUG t.Regiester with invalid requirements    - 10: setEncryptedText(findTestObject("Register/password_field"), "f7IgQFd4qQo=")
+2026-05-08 13:33:22.068 DEBUG t.Regiester with invalid requirements    - 11: click(findTestObject("Register/btn_create_account"))
+2026-05-08 13:33:22.660 DEBUG t.Regiester with invalid requirements    - 12: click(findTestObject("Register/msg_please_enter_a_valid_email_address"))
+2026-05-08 13:33:23.160 DEBUG t.Regiester with invalid requirements    - 13: click(findTestObject("Register/msg_validation_email_field"))
+2026-05-08 13:33:23.438 DEBUG t.Regiester with invalid requirements    - 14: closeBrowser()
+2026-05-08 13:33:23.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Verification/Regiester with invalid requirements
+2026-05-08 13:33:23.582 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-08 13:33:23.582 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Register
+2026-05-08 13:33:23.582 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

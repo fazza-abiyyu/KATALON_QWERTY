@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_my_order</name>
+   <tag></tag>
+   <elementGuidId>5b9710ac-9b7d-477c-9a95-913983041c88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'My Orders')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;orders-link&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>95dc8dad-3005-4ca4-bc2e-34ecde3d02f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>orders-link</value>
+      <webElementGuid>3f82ce9e-8783-4b53-80af-c10331ce9024</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block px-4 py-2.5 text-[13px] font-medium text-gray-600 hover:bg-gray-50 transition-colors</value>
+      <webElementGuid>8eb2fc1b-a450-4290-a6ae-cc02eb3b087a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/orders</value>
+      <webElementGuid>91481122-144a-412c-a012-e679b5821bd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Orders</value>
+      <webElementGuid>b18da926-dccd-4673-bfaf-180b569a988f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/header[@class=&quot;sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100&quot;]/div[@class=&quot;max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between&quot;]/div[@class=&quot;flex items-center gap-2 sm:gap-4&quot;]/div[@class=&quot;flex items-center gap-2 sm:gap-4&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;absolute right-0 mt-3 w-56 bg-white border border-gray-100 rounded-2xl shadow-2xl py-2 z-50 overflow-hidden animate-in fade-in slide-in-from-top-2 duration-200&quot;]/a[@class=&quot;block px-4 py-2.5 text-[13px] font-medium text-gray-600 hover:bg-gray-50 transition-colors&quot;]</value>
+      <webElementGuid>cd03aa22-3cb5-4617-b782-1c0687c15840</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'My Orders')]</value>
+      <webElementGuid>6b887403-2892-4d11-bc81-b48418cc0982</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Settings'])[1]/following::a[1]</value>
+      <webElementGuid>1dd10e71-61fa-476d-bbcc-f2ed15dc73b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UT'])[1]/following::a[2]</value>
+      <webElementGuid>f7c2819e-fa9b-4401-a64b-116b14e340b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[1]</value>
+      <webElementGuid>62803616-3d88-4849-a9d4-a87d0b145243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QWERTY Store'])[1]/preceding::a[2]</value>
+      <webElementGuid>231c43f8-6746-4902-a6df-2b15b2e7c33f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Orders']/parent::*</value>
+      <webElementGuid>cec2a262-c562-4b23-9edb-1a586d313165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/orders')]</value>
+      <webElementGuid>68feb85e-8e0b-4e0e-867a-c52eef6022c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a[2]</value>
+      <webElementGuid>8ffd9f59-ddeb-416a-8345-8b51af6900ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@data-testid = 'orders-link' and @href = '/orders' and (text() = 'My Orders' or . = 'My Orders')]</value>
+      <webElementGuid>371364ec-3244-44df-9d1d-b31803b137c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

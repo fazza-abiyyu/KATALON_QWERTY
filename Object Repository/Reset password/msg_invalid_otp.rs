@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_invalid_otp</name>
+   <tag></tag>
+   <elementGuidId>f8691eb6-f357-45e6-8e57-5851be7183c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Set new password'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-4.rounded-xl.bg-red-50.text-red-600.text-sm.font-medium.mb-6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;reset-password-error&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9ea3cb4f-914a-4f85-995a-6c02769e01d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>reset-password-error</value>
+      <webElementGuid>ddaf6224-6f57-435a-b18a-e5e2d63056fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-4 rounded-xl bg-red-50 text-red-600 text-sm font-medium mb-6</value>
+      <webElementGuid>d323331d-6cc9-427f-ba35-fe1dc75c425c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid OTP</value>
+      <webElementGuid>e217a597-f733-4a27-ae4f-ea763cad6d9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;min-h-[80vh] flex items-center justify-center px-4 py-12&quot;]/div[@class=&quot;w-full max-w-md&quot;]/div[1]/div[@class=&quot;p-4 rounded-xl bg-red-50 text-red-600 text-sm font-medium mb-6&quot;]</value>
+      <webElementGuid>45853630-9d25-4502-892c-b4610939fac7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Set new password'])[1]/following::div[1]</value>
+      <webElementGuid>6b85fc01-eddd-4b5a-b02d-70b3360cdb90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Email'])[1]/following::div[2]</value>
+      <webElementGuid>4b705d4d-d64b-466c-a723-e3969c1daf6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OTP Code'])[1]/preceding::div[1]</value>
+      <webElementGuid>ca785eca-71ae-4bcd-a38e-a6899f310fd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Password'])[1]/preceding::div[3]</value>
+      <webElementGuid>eeb78791-055f-46d5-ac4d-b9b51c7895d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invalid OTP']/parent::*</value>
+      <webElementGuid>e1179cf9-c043-475c-b56e-37cfa723ffde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]</value>
+      <webElementGuid>b1c260ef-aa42-451a-a7b6-382fd1639533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@data-testid = 'reset-password-error' and (text() = 'Invalid OTP' or . = 'Invalid OTP')]</value>
+      <webElementGuid>dadaae80-c6b9-4fbf-ba1d-3cba827e6117</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

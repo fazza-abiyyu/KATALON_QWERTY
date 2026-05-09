@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_selection_size_variant</name>
+   <tag></tag>
+   <elementGuidId>85fde3ef-7961-41b3-a736-2a0b25454faa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;variant-select-SUN-GLD&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'variant-select-SUN-GLD']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;variant-select-SUN-GLD&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>654750db-5f77-4178-b11a-9929851ca5ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>variant-select-SUN-GLD</value>
+      <webElementGuid>f622a44a-7b1d-4fc3-897b-f13c634f23d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-4 py-2.5 text-[13px] font-medium rounded-xl border transition-all bg-[#111] text-white border-[#111]</value>
+      <webElementGuid>5dff389d-8fe0-4a76-8c76-71c1839a4a9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gold Frame</value>
+      <webElementGuid>f3902453-3320-4d6e-aa6b-3220e644db13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-8dc39ecc289087c815a576a596293a23</value>
+      <webElementGuid>6e66e079-e0fb-451a-a891-bfccb4d33b41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'variant-select-SUN-GLD']</value>
+      <webElementGuid>8f42d32e-110f-4972-b0c5-5aecd8a58bc1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'variant-select-SUN-GLD']</value>
+      <webElementGuid>d394f225-a1bd-46e6-9dac-13e59510deaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@data-testid = 'variant-select-SUN-GLD' and (text() = 'Gold Frame' or . = 'Gold Frame')]</value>
+      <webElementGuid>bb78e5b7-2964-457d-bb04-2a440783459b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

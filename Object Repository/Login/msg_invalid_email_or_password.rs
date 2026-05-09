@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_invalid_email_or_password</name>
+   <tag></tag>
+   <elementGuidId>f39d0917-788a-44b8-ba09-559d46986476</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;login-error-message&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'login-error-message']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;login-error-message&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c00c1585-7ff0-4703-ac15-596436381f71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>login-error-message</value>
+      <webElementGuid>8b410c6c-b9ce-41e6-baa1-51741531f7b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-5 p-3 bg-red-50 text-red-600 text-[13px] rounded-xl text-center font-medium</value>
+      <webElementGuid>a5631173-6300-4b82-bb6c-6a2669505388</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid email or password</value>
+      <webElementGuid>0aa7e8a2-84cf-4b58-b7fd-1a7c4761e71a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-418d4e6f9ea3454be275d80bc0306baa</value>
+      <webElementGuid>fa11efca-0098-410d-87c2-6b3d5bff9e01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'login-error-message']</value>
+      <webElementGuid>978e0744-2634-476b-b0ff-4fd08569083e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'login-error-message']</value>
+      <webElementGuid>39a12926-575d-4540-bc7b-8e4249792534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@data-testid = 'login-error-message' and (text() = 'Invalid email or password' or . = 'Invalid email or password')]</value>
+      <webElementGuid>eec86c45-98f1-4622-996f-7e504c14ece4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_add_quantity_in_cart_page</name>
+   <tag></tag>
+   <elementGuidId>c78ac402-e514-4cbe-bf38-8176a375f79c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'cart-qty-plus-SUN-GLD']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;cart-qty-plus-SUN-GLD&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;cart-qty-plus-SUN-GLD&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fe1f0ee2-b341-4ecf-9da7-7feeba6dc3ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>cart-qty-plus-SUN-GLD</value>
+      <webElementGuid>6277103f-9d21-426a-aea6-3c1cde80a801</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-8 h-8 flex items-center justify-center text-gray-400 hover:text-[#111] text-sm</value>
+      <webElementGuid>5fd5eba2-42a8-4aab-bfbf-0f9d47216587</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+</value>
+      <webElementGuid>7f4ce391-3497-41c9-85c0-53f12089d237</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-56bf64edf520b514dc4f918b8dfd9996</value>
+      <webElementGuid>0acc0198-4e66-40ab-9b75-13bccbd69de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'cart-qty-plus-SUN-GLD']</value>
+      <webElementGuid>629f5981-c2d4-4f01-9b4c-f3d69ba48f5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'cart-qty-plus-SUN-GLD']</value>
+      <webElementGuid>7ded9eda-3c51-4965-a6bb-ac33c126d1fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@data-testid = 'cart-qty-plus-SUN-GLD' and (text() = '+' or . = '+')]</value>
+      <webElementGuid>b6bdebe5-6266-4a76-b31b-d88d5c644651</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

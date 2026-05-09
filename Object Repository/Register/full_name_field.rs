@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>full_name_field</name>
+   <tag></tag>
+   <elementGuidId>28c88ca2-07fc-456e-b90e-e0b5d44054da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;register-name-input&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'register-name-input']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;register-name-input&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>73d42455-120c-4c56-8753-1673394d934a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>register-name-input</value>
+      <webElementGuid>7171f26a-420e-4332-9e4a-2c34b5844789</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>John Doe</value>
+      <webElementGuid>47862b1f-3036-4706-935b-3ca2267f7f1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full px-4 py-3 bg-gray-50 border rounded-xl text-sm transition-all focus:outline-none focus:ring-2 border-transparent text-gray-900 focus:ring-gray-200 focus:bg-white</value>
+      <webElementGuid>5a0372c3-a42c-4057-9646-14714ac52811</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>37ad2c55-1bd5-48b8-a1d3-ea9aa76c9353</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a5be8dbf0220fc35c97d260f11e55604</value>
+      <webElementGuid>f755ae75-5ab0-4c56-8810-593ddf66f17a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-name-input']</value>
+      <webElementGuid>9374d6a0-89f9-4e3f-b132-62cbd1baa066</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-name-input']</value>
+      <webElementGuid>5b32dcaf-d9dc-44c4-8128-5ca47c3e6084</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@data-testid = 'register-name-input' and @placeholder = 'John Doe' and @type = 'text']</value>
+      <webElementGuid>9227d7cb-c011-41da-8930-5f179e539c30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>va_number_field_webhook</name>
+   <tag></tag>
+   <elementGuidId>e5a17205-1244-44ef-ac3f-9e083a628a53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Contoh: 8077123456&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8027b981-6958-40a1-871d-b95280321911</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>0273a12e-f5d4-4ad4-a876-39323e1f2933</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Contoh: 8077123456</value>
+      <webElementGuid>a164fed0-a57c-4879-b707-9206e9955d26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full px-5 py-4 bg-gray-50 border border-gray-200 rounded-xl text-[16px] font-mono tracking-widest text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all mb-6</value>
+      <webElementGuid>74a6f839-f2f1-4f47-88f9-b78c6ac95989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;max-w-md mx-auto px-6 py-16&quot;]/div[@class=&quot;bg-white border border-gray-200 rounded-3xl shadow-xl overflow-hidden&quot;]/div[@class=&quot;p-8&quot;]/form[1]/input[@class=&quot;w-full px-5 py-4 bg-gray-50 border border-gray-200 rounded-xl text-[16px] font-mono tracking-widest text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all mb-6&quot;]</value>
+      <webElementGuid>4785c2ad-7ff5-495f-adb9-6ab9ab2f4474</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>1a46e93b-9c3b-4b51-8924-cc8ad25d19f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>03c32b80-5ea0-44e6-b560-1f9300cccc6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Contoh: 8077123456']</value>
+      <webElementGuid>1758278a-ca25-4b3c-bb3f-6785efbf37e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

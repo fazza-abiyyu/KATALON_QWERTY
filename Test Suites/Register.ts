@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Register</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ad0ec2ca-e44a-4313-bc4d-83af5b844f11</testSuiteGuid>
+   <testCaseLink>
+      <guid>3663c57e-e0b4-46c1-b8e0-c9abbb7de38f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Register Verification/Register with email exists</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa6676ff-10ad-4dfc-8de3-2af51d3b18fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ba25ba24-06bc-4dfa-8edd-1066a4a3381a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e1cbcda4-7e32-4042-a735-43e195b24a7e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ef037e78-b469-46e5-833e-59998f4200e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Register Verification/Regiester with valid requirements</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f0d45911-06df-463a-a27e-dc5d1fd87342</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a080b77-3ee2-411d-b3d2-34cb004b9dc3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Register Verification/Regiester with blank input</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fcb16ee8-b5ae-4267-a053-ac162c9ca329</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ada492b1-e274-46ed-bb85-bf6e5f38c3e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Register Verification/Regiester with invalid requirements</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>80a1b743-4bd3-4eac-989b-f62d9b2a2081</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="34.886" tests="4" passed="4" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Register" tests="4" passed="4" failures="0" errors="0" incompleted="0" skipped="0" time="34.886" timestamp="2026-05-08T06:32:48.674Z" hostname="fazza_abiyyu - 192.168.18.51" id="Test Suites/Register" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260508_133241/Register/20260508_133242"/>
+         <property name="logFiles" value="/Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260508_133241/Register/20260508_133242/execution0.log, /Users/fazza_abiyyu/Documents/Projects/Hobby/KATALON_QWERTY/Reports/20260508_133241/Register/20260508_133242/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="fazza_abiyyu - 192.168.18.51"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.2.0"/>
+         <property name="browser" value="Chrome 147.0.7727.138"/>
+         <property name="userFullName" value="Muhammad Faza Abiyyu"/>
+         <property name="hostAddress" value="192.168.18.51"/>
+         <property name="sessionId" value="2ca8fd969785e790a6d1fbc2833afae7"/>
+         <property name="projectName" value="KATALON_QWERTY"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Register Verification/Register with email exists" time="11.485" classname="Test Cases/Register Verification/Register with email exists" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"User@001","email":"test01@qwerty.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[08-05-2026T13:32:48 - [TEST_CASE][PASSED] - Test Cases/Register Verification/Register with email exists: Test Cases/Register Verification/Register with email exists
+
+08-05-2026T13:32:49 - [TEST_STEP][PASSED] - firstNames = ["Fazza", "Lin", "Kai", "Zhen", "Alya"]: null
+
+08-05-2026T13:32:49 - [TEST_STEP][PASSED] - lastNames = ["Chen", "Wijaya", "Putra", "Li", "Santoso"]: null
+
+08-05-2026T13:32:49 - [TEST_STEP][PASSED] - randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())]: null
+
+08-05-2026T13:32:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-05-2026T13:32:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-05-2026T13:32:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-05-2026T13:32:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-05-2026T13:32:53 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+08-05-2026T13:32:54 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+08-05-2026T13:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Register/icon_sign_up")): Object: 'Object Repository/Register/icon_sign_up' is clicked on
+
+08-05-2026T13:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/icon_sign_up' is clicked on
+
+08-05-2026T13:32:55 - [TEST_STEP][PASSED] - setText(findTestObject("Register/full_name_field"), randomFullName): Text '[Fazza, Lin, Kai, Zhen, Alya][new Random().nextInt(firstNames.size())] [Chen, Wijaya, Putra, Li, Santoso][new Random().nextInt(lastNames.size())]' is set on object 'Object Repository/Register/full_name_field'
+
+08-05-2026T13:32:56 - [MESSAGE][PASSED] - Text '[Fazza, Lin, Kai, Zhen, Alya][new Random().nextInt(firstNames.size())] [Chen, Wijaya, Putra, Li, Santoso][new Random().nextInt(lastNames.size())]' is set on object 'Object Repository/Register/full_name_field'
+
+08-05-2026T13:32:56 - [TEST_STEP][PASSED] - setText(findTestObject("Register/email_field"), email): Text 'test01@qwerty.com' is set on object 'Object Repository/Register/email_field'
+
+08-05-2026T13:32:57 - [MESSAGE][PASSED] - Text 'test01@qwerty.com' is set on object 'Object Repository/Register/email_field'
+
+08-05-2026T13:32:57 - [TEST_STEP][PASSED] - setText(findTestObject("Register/password_field"), password): Text 'User@001' is set on object 'Object Repository/Register/password_field'
+
+08-05-2026T13:32:58 - [MESSAGE][PASSED] - Text 'User@001' is set on object 'Object Repository/Register/password_field'
+
+08-05-2026T13:32:58 - [TEST_STEP][PASSED] - setText(findTestObject("Register/verify_password_field"), password): Text 'User@001' is set on object 'Object Repository/Register/verify_password_field'
+
+08-05-2026T13:32:58 - [MESSAGE][PASSED] - Text 'User@001' is set on object 'Object Repository/Register/verify_password_field'
+
+08-05-2026T13:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_create_account")): Object: 'Object Repository/Register/btn_create_account' is clicked on
+
+08-05-2026T13:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_create_account' is clicked on
+
+08-05-2026T13:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Register/msg_email_already_registered")): Object: 'Object Repository/Register/msg_email_already_registered' is clicked on
+
+08-05-2026T13:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/msg_email_already_registered' is clicked on
+
+08-05-2026T13:33:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-05-2026T13:33:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register Verification/Regiester with valid requirements" time="9.276" classname="Test Cases/Register Verification/Regiester with valid requirements" status="PASSED">
+         <system-out><![CDATA[08-05-2026T13:33:00 - [TEST_CASE][PASSED] - Test Cases/Register Verification/Regiester with valid requirements: Test Cases/Register Verification/Regiester with valid requirements
+
+08-05-2026T13:33:00 - [TEST_STEP][PASSED] - randomEmail = test$System.currentTimeMillis()@qwerty.com: null
+
+08-05-2026T13:33:00 - [TEST_STEP][PASSED] - firstNames = ["Fazza", "Lin", "Kai", "Zhen", "Alya"]: null
+
+08-05-2026T13:33:00 - [TEST_STEP][PASSED] - lastNames = ["Chen", "Wijaya", "Putra", "Li", "Santoso"]: null
+
+08-05-2026T13:33:00 - [TEST_STEP][PASSED] - randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())]: null
+
+08-05-2026T13:33:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-05-2026T13:33:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-05-2026T13:33:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-05-2026T13:33:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-05-2026T13:33:02 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+08-05-2026T13:33:03 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+08-05-2026T13:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Register/icon_sign_up")): Object: 'Object Repository/Register/icon_sign_up' is clicked on
+
+08-05-2026T13:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/icon_sign_up' is clicked on
+
+08-05-2026T13:33:04 - [TEST_STEP][PASSED] - setText(findTestObject("Register/full_name_field"), randomFullName): Text '[Fazza, Lin, Kai, Zhen, Alya][new Random().nextInt(firstNames.size())] [Chen, Wijaya, Putra, Li, Santoso][new Random().nextInt(lastNames.size())]' is set on object 'Object Repository/Register/full_name_field'
+
+08-05-2026T13:33:05 - [MESSAGE][PASSED] - Text '[Fazza, Lin, Kai, Zhen, Alya][new Random().nextInt(firstNames.size())] [Chen, Wijaya, Putra, Li, Santoso][new Random().nextInt(lastNames.size())]' is set on object 'Object Repository/Register/full_name_field'
+
+08-05-2026T13:33:05 - [TEST_STEP][PASSED] - setText(findTestObject("Register/email_field"), randomEmail): Text 'test1778221980432@qwerty.com' is set on object 'Object Repository/Register/email_field'
+
+08-05-2026T13:33:06 - [MESSAGE][PASSED] - Text 'test1778221980432@qwerty.com' is set on object 'Object Repository/Register/email_field'
+
+08-05-2026T13:33:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/password_field"), "NwihNemifflwzNshSAiWUA=="): Text ****** has been set on object 'Object Repository/Register/password_field'
+
+08-05-2026T13:33:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/password_field'
+
+08-05-2026T13:33:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/verify_password_field"), "NwihNemifflwzNshSAiWUA=="): Text ****** has been set on object 'Object Repository/Register/verify_password_field'
+
+08-05-2026T13:33:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/verify_password_field'
+
+08-05-2026T13:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_create_account")): Object: 'Object Repository/Register/btn_create_account' is clicked on
+
+08-05-2026T13:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_create_account' is clicked on
+
+08-05-2026T13:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Register/msg_account_successfuly_created")): Object: 'Object Repository/Register/msg_account_successfuly_created' is clicked on
+
+08-05-2026T13:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/msg_account_successfuly_created' is clicked on
+
+08-05-2026T13:33:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-05-2026T13:33:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register Verification/Regiester with blank input" time="6.808" classname="Test Cases/Register Verification/Regiester with blank input" status="PASSED">
+         <system-out><![CDATA[08-05-2026T13:33:09 - [TEST_CASE][PASSED] - Test Cases/Register Verification/Regiester with blank input: Test Cases/Register Verification/Regiester with blank input
+
+08-05-2026T13:33:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-05-2026T13:33:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-05-2026T13:33:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-05-2026T13:33:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-05-2026T13:33:12 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+08-05-2026T13:33:13 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+08-05-2026T13:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Register/icon_sign_up")): Object: 'Object Repository/Register/icon_sign_up' is clicked on
+
+08-05-2026T13:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/icon_sign_up' is clicked on
+
+08-05-2026T13:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Register/full_name_field")): Object: 'Object Repository/Register/full_name_field' is clicked on
+
+08-05-2026T13:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/full_name_field' is clicked on
+
+08-05-2026T13:33:14 - [TEST_STEP][PASSED] - click(findTestObject("Register/email_field")): Object: 'Object Repository/Register/email_field' is clicked on
+
+08-05-2026T13:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/email_field' is clicked on
+
+08-05-2026T13:33:14 - [TEST_STEP][PASSED] - click(findTestObject("Register/password_field")): Object: 'Object Repository/Register/password_field' is clicked on
+
+08-05-2026T13:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/password_field' is clicked on
+
+08-05-2026T13:33:15 - [TEST_STEP][PASSED] - click(findTestObject("Register/verify_password_field")): Object: 'Object Repository/Register/verify_password_field' is clicked on
+
+08-05-2026T13:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/verify_password_field' is clicked on
+
+08-05-2026T13:33:15 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_create_account")): Object: 'Object Repository/Register/btn_create_account' is clicked on
+
+08-05-2026T13:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_create_account' is clicked on
+
+08-05-2026T13:33:15 - [TEST_STEP][PASSED] - click(findTestObject("Register/msg_please_enter_your_full_name")): Object: 'Object Repository/Register/msg_please_enter_your_full_name' is clicked on
+
+08-05-2026T13:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/msg_please_enter_your_full_name' is clicked on
+
+08-05-2026T13:33:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-05-2026T13:33:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register Verification/Regiester with invalid requirements" time="7.087" classname="Test Cases/Register Verification/Regiester with invalid requirements" status="PASSED">
+         <system-out><![CDATA[08-05-2026T13:33:16 - [TEST_CASE][PASSED] - Test Cases/Register Verification/Regiester with invalid requirements: Test Cases/Register Verification/Regiester with invalid requirements
+
+08-05-2026T13:33:16 - [TEST_STEP][PASSED] - randomInvalidEmail = test$System.currentTimeMillis().com: null
+
+08-05-2026T13:33:16 - [TEST_STEP][PASSED] - firstNames = ["Fazza", "Lin", "Kai", "Zhen", "Alya"]: null
+
+08-05-2026T13:33:16 - [TEST_STEP][PASSED] - lastNames = ["Chen", "Wijaya", "Putra", "Li", "Santoso"]: null
+
+08-05-2026T13:33:16 - [TEST_STEP][PASSED] - randomFullName = $firstNames[new Random().nextInt(firstNames.size())] $lastNames[new Random().nextInt(lastNames.size())]: null
+
+08-05-2026T13:33:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-05-2026T13:33:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-05-2026T13:33:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-05-2026T13:33:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-05-2026T13:33:18 - [TEST_STEP][PASSED] - navigateToUrl("https://qwerty.abiyyu.xyz/"): Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+08-05-2026T13:33:19 - [MESSAGE][PASSED] - Navigate to 'https://qwerty.abiyyu.xyz/' successfully
+
+08-05-2026T13:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Register/icon_sign_up")): Object: 'Object Repository/Register/icon_sign_up' is clicked on
+
+08-05-2026T13:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/icon_sign_up' is clicked on
+
+08-05-2026T13:33:20 - [TEST_STEP][PASSED] - setText(findTestObject("Register/full_name_field"), randomFullName): Text '[Fazza, Lin, Kai, Zhen, Alya][new Random().nextInt(firstNames.size())] [Chen, Wijaya, Putra, Li, Santoso][new Random().nextInt(lastNames.size())]' is set on object 'Object Repository/Register/full_name_field'
+
+08-05-2026T13:33:21 - [MESSAGE][PASSED] - Text '[Fazza, Lin, Kai, Zhen, Alya][new Random().nextInt(firstNames.size())] [Chen, Wijaya, Putra, Li, Santoso][new Random().nextInt(lastNames.size())]' is set on object 'Object Repository/Register/full_name_field'
+
+08-05-2026T13:33:21 - [TEST_STEP][PASSED] - setText(findTestObject("Register/email_field"), randomInvalidEmail): Text 'test1778221996503.com' is set on object 'Object Repository/Register/email_field'
+
+08-05-2026T13:33:21 - [MESSAGE][PASSED] - Text 'test1778221996503.com' is set on object 'Object Repository/Register/email_field'
+
+08-05-2026T13:33:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/password_field"), "f7IgQFd4qQo="): Text ****** has been set on object 'Object Repository/Register/password_field'
+
+08-05-2026T13:33:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/password_field'
+
+08-05-2026T13:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_create_account")): Object: 'Object Repository/Register/btn_create_account' is clicked on
+
+08-05-2026T13:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_create_account' is clicked on
+
+08-05-2026T13:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Register/msg_please_enter_a_valid_email_address")): Object: 'Object Repository/Register/msg_please_enter_a_valid_email_address' is clicked on
+
+08-05-2026T13:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/msg_please_enter_a_valid_email_address' is clicked on
+
+08-05-2026T13:33:23 - [TEST_STEP][PASSED] - click(findTestObject("Register/msg_validation_email_field")): Object: 'Object Repository/Register/msg_validation_email_field' is clicked on
+
+08-05-2026T13:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/msg_validation_email_field' is clicked on
+
+08-05-2026T13:33:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-05-2026T13:33:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-05-2026T13:32:48 - [TEST_SUITE][PASSED] - Register: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

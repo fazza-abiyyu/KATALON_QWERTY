@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>confirm_password_field</name>
+   <tag></tag>
+   <elementGuidId>26965c14-43a1-4901-a01c-34cc38386123</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@data-testid = 'reset-password-confirm-input' and @placeholder = 'Repeat password' and @type = 'password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;reset-password-confirm-input&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>6391a6cb-d25e-4760-977e-7b9d79dcf6bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>reset-password-confirm-input</value>
+      <webElementGuid>869aa58d-dc8a-446b-a633-cab5ceea86e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Repeat password</value>
+      <webElementGuid>1cde5eae-b581-4a46-9447-56dba119c0e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full pl-11 pr-4 py-3 bg-gray-50 border rounded-2xl text-[14px] transition-all focus:outline-none focus:ring-2 border-transparent focus:ring-gray-200 focus:bg-white</value>
+      <webElementGuid>a4e46858-87d8-466c-a45d-aabb5cbc4db4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>b4d9366d-1969-4538-9e8e-96b43cf11252</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;min-h-[80vh] flex items-center justify-center px-4 py-12&quot;]/div[@class=&quot;w-full max-w-md&quot;]/div[1]/form[@class=&quot;space-y-4&quot;]/div[3]/div[@class=&quot;relative&quot;]/input[@class=&quot;w-full pl-11 pr-4 py-3 bg-gray-50 border rounded-2xl text-[14px] transition-all focus:outline-none focus:ring-2 border-transparent focus:ring-gray-200 focus:bg-white&quot;]</value>
+      <webElementGuid>aff8dba2-b1bd-4ecf-bfc1-4b68d846940f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[3]</value>
+      <webElementGuid>2d178f30-eec8-4665-8da0-15440adbee99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>0a398fbd-a89d-439a-81f2-1d2f96182073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@data-testid = 'reset-password-confirm-input' and @placeholder = 'Repeat password' and @type = 'password']</value>
+      <webElementGuid>1734fc67-c10a-4257-a3a3-8e29e1135ea6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

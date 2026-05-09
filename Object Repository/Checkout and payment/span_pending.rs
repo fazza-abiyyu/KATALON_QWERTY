@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_pending</name>
+   <tag></tag>
+   <elementGuidId>0fda8313-7502-4f7d-938e-574ed2e368dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Details'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;pending&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ae3ffb59-e8d8-41c8-ab0a-265e1d584d83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[12px] font-bold tracking-wider uppercase px-4 py-1.5 rounded-full bg-white border border-gray-200 text-gray-400</value>
+      <webElementGuid>215ee039-e215-402a-9d01-411eba0f113b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>pending</value>
+      <webElementGuid>20956a9f-ad9b-4447-9709-6489f2c6fc26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased&quot;]/body[@class=&quot;min-h-full flex flex-col bg-white text-[#1a1a1a] font-sans&quot;]/main[@class=&quot;flex-1&quot;]/div[@class=&quot;max-w-3xl mx-auto px-6 py-10&quot;]/div[@class=&quot;flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8&quot;]/span[@class=&quot;text-[12px] font-bold tracking-wider uppercase px-4 py-1.5 rounded-full bg-white border border-gray-200 text-gray-400&quot;]</value>
+      <webElementGuid>580519ba-684a-47be-abe5-65b82c076c4d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Details'])[1]/following::span[1]</value>
+      <webElementGuid>ccebf39f-6ee7-43f2-b0a4-9596b1fe4696</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to Orders'])[1]/following::span[1]</value>
+      <webElementGuid>68e98e62-c9ca-4894-aa63-a65db2571f99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Awaiting Payment'])[1]/preceding::span[1]</value>
+      <webElementGuid>13391899-4e09-4827-a976-21c0b2591226</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bca va'])[1]/preceding::span[1]</value>
+      <webElementGuid>14f016ef-ebb3-4961-89c8-e3b09496d4bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='pending']/parent::*</value>
+      <webElementGuid>5f47232a-a14f-45ab-80da-f0ced6db1ac1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>3d6fc3bb-6d7c-4ec6-a7a5-4341994e8e7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'pending' or . = 'pending')]</value>
+      <webElementGuid>30f61886-6ff0-45a3-9fbb-6461ba2ba3ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

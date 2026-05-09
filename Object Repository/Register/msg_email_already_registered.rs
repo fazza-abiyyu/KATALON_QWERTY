@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_email_already_registered</name>
+   <tag></tag>
+   <elementGuidId>128ff538-9e8c-40e7-9fc7-1da47e1a04bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;register-error-message&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'register-error-message']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;register-error-message&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bb2804d9-541b-4373-a92d-ef3843a935e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>register-error-message</value>
+      <webElementGuid>4ba04b92-ab1c-4fa8-8498-649e4524f7d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-5 p-3.5 bg-red-50 border border-red-100 text-red-600 text-[13px] rounded-2xl text-center font-bold animate-in fade-in slide-in-from-top-2</value>
+      <webElementGuid>e4ade7a2-9cc2-430f-bd33-271ea3b2c55c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email already registered</value>
+      <webElementGuid>cad41212-de25-4688-9551-0540e1bc705d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-cb4287ccb07da709416bdaefd6eca142</value>
+      <webElementGuid>2df0e7f0-e1be-4daf-b747-a331099d5dcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-error-message']</value>
+      <webElementGuid>8df5d27b-ec4e-48c7-a2de-88c6a980954b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-error-message']</value>
+      <webElementGuid>52563dee-09b4-4483-844b-ebe680aac640</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@data-testid = 'register-error-message' and (text() = 'Email already registered' or . = 'Email already registered')]</value>
+      <webElementGuid>37c12b9f-a956-4b50-adbc-7512a76861d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

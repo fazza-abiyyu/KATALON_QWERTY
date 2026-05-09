@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_password_field</name>
+   <tag></tag>
+   <elementGuidId>38042f39-313a-4275-8eb0-8bd968f5a9c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;register-confirm-password-input&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'register-confirm-password-input']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;register-confirm-password-input&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>bf7986dc-e004-4ade-aec2-90817bd736ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>register-confirm-password-input</value>
+      <webElementGuid>14e3d96e-50f7-496a-9bb4-6171ebfcf47c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Repeat password</value>
+      <webElementGuid>ed2c82da-7c30-4ffe-987b-57ceb5bcabb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full px-4 py-3 bg-gray-50 border rounded-xl text-sm transition-all focus:outline-none focus:ring-2 border-transparent focus:ring-gray-200 focus:bg-white</value>
+      <webElementGuid>6b9e1b8b-e9ef-4a27-99e5-1a1095cd0fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>cde66129-94b8-4c29-89e3-c5f97f551e36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a637c1c7aae7f7bc174426298ba0947f</value>
+      <webElementGuid>b0557d59-3780-4ff2-9f09-4185ac170cc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-confirm-password-input']</value>
+      <webElementGuid>2058bae7-63d9-4942-903a-d6c320df7d02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'register-confirm-password-input']</value>
+      <webElementGuid>ffc4f56d-6cde-4b11-b9d4-dc284388f8f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@data-testid = 'register-confirm-password-input' and @placeholder = 'Repeat password' and @type = 'password']</value>
+      <webElementGuid>8157fbcb-356c-4d5f-94ab-79e13adb8fc4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
