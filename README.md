@@ -10,14 +10,12 @@ This project contains end-to-end testing scenarios covering authentication, cart
 
 This repository is part of the QWERTY ecosystem:
 
-- Main Application Repository:
-  https://github.com/fazza-abiyyu/QWERTY-E-Commerce
+- Main Application Repository: [Source Code QWERTY E-Commerce] (https://github.com/fazza-abiyyu/QWERTY-E-Commerce)
 
-- Automation Testing Repository:
-  https://github.com/fazza-abiyyu/KATALON_QWERTY
+- Automation Testing Repository: [Katalon QWERTY E-Commerce] (https://github.com/fazza-abiyyu/KATALON_QWERTY)
 
 - QA Test Case Documentation:
-  https://docs.google.com/spreadsheets/d/1VZ4eQ-brBA4YSWC1y6cMIE0iesjL65XsEZ4IIBDL4HI
+  [Google Sheets Documentation](https://docs.google.com/spreadsheets/d/1VZ4eQ-brBA4YSWC1y6cMlEoiesjL65XsEZ4lJBDL4HI/edit?usp=sharing)
 
 - Live Demo:
   https://qwerty.abiyyu.xyz
@@ -124,7 +122,7 @@ Real QA test cases are documented in Google Spreadsheet format including:
 - Environment
 
 Documentation:
-https://docs.google.com/spreadsheets/d/1VZ4eQ-brBA4YSWC1y6cMIE0iesjL65XsEZ4IIBDL4HI
+[Google Sheets Documentation](https://docs.google.com/spreadsheets/d/1VZ4eQ-brBA4YSWC1y6cMlEoiesjL65XsEZ4lJBDL4HI/edit?usp=sharing)
 
 ---
 
