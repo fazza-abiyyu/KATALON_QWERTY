@@ -9,6 +9,96 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Login with valid credentials/Page_QWERTY E-Commerce/box_icon_profile_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cart/one_of_item_on_shop",
+      "brokenLocator": "//*[@alt \u003d \u0027Aviator Sunglasses\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Classic White Sneakers\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cart/one_of_item_on_shop_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cart/icon_trash",
+      "brokenLocator": "//*[@data-testid \u003d \u0027cart-remove-item-SUN-GLD\u0027]//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 lucide \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cart/icon_trash_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout and payment/page_profile_settings",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027UT\u0027])[1]/following::div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//main/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout and payment/page_profile_settings_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout and payment/btn_my_order",
+      "brokenLocator": "//a[@data-testid\u003d\u0027orders-link\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(@href, \u0027/cart\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout and payment/btn_my_order_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout and payment/first_item_on_my_order_page",
+      "brokenLocator": "(//*[@data-testid\u003d\u0027order-item\u0027])[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(@href, \u0027/orders/ORD-1778286670380-891e\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout and payment/first_item_on_my_order_page_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reset password/first_item_mailler_otp",
+      "brokenLocator": "(//*[@data-testid \u003d \u0027email-item-\u0027])[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Reset password/first_item_mailler_otp_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reset password/confirm_password_field",
+      "brokenLocator": "(//input[@value\u003d\u0027\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@value\u003d\u0027User@001\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Reset password/confirm_password_field_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reset password/email_field",
+      "brokenLocator": "//input[@id\u003d\u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027email_field\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Reset password/email_field_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reset password/email_field",
+      "brokenLocator": "#email_field",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027email_field\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Reset password/email_field_XPATH.png"
     }
   ]
 }

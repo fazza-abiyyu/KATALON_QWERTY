@@ -38,6 +38,12 @@
          <value>Password</value>
          <variableId>46fec9a9-a369-4d3b-8c1d-ee3f2cc4ee97</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>236c6c59-85d9-4408-90cc-b22c9ab7bf18</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>75c3b447-82c0-4c37-8cc9-b94c1c731733</guid>
@@ -135,6 +141,12 @@
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>6097632a-c84b-4222-8197-92d6380d202b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26df8895-8059-4b5a-80ee-77e2e3fa7bd6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

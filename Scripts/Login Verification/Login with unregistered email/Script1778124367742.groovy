@@ -17,19 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+def randomEmail = "test${System.currentTimeMillis()}@qwerty.com"
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qwerty.abiyyu.xyz/')
+WebUI.navigateToUrl(url)
 
-WebUI.click(findTestObject('Login with unregistered email/Page_QWERTY E-Commerce/icon_sign_in'))
+WebUI.click(findTestObject('Login/icon_sign_in'))
 
-WebUI.setText(findTestObject('Login with unregistered email/Page_QWERTY E-Commerce/email_field'), email)
+WebUI.setText(findTestObject('Login/email_field'), randomEmail)
 
-WebUI.setText(findTestObject('Login with unregistered email/Page_QWERTY E-Commerce/password_field'), password)
+WebUI.setText(findTestObject('Login/password_field'), password)
 
-WebUI.click(findTestObject('Login with unregistered email/Page_QWERTY E-Commerce/btn_sign_in'))
+WebUI.click(findTestObject('Login/btn_sign_in'))
 
-WebUI.click(findTestObject('Login with unregistered email/Page_QWERTY E-Commerce/msg_invalid_email_or_password'))
+WebUI.click(findTestObject('Login/msg_invalid_email_or_password'))
 
 WebUI.closeBrowser()
 

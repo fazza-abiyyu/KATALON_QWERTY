@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qwerty.abiyyu.xyz/')
+WebUI.navigateToUrl(url)
 
-WebUI.click(findTestObject('Login with invalid credentials/Page_QWERTY E-Commerce/icon_sign_in'))
+WebUI.click(findTestObject('Login/icon_sign_in'))
 
-WebUI.setText(findTestObject('Login with invalid credentials/Page_QWERTY E-Commerce/email_field'), email)
+WebUI.setText(findTestObject('Login/email_field'), email)
 
-WebUI.setText(findTestObject('Login with invalid credentials/Page_QWERTY E-Commerce/password_field'), password)
+WebUI.setText(findTestObject('Login/password_field'), password)
 
-WebUI.click(findTestObject('Login with invalid credentials/Page_QWERTY E-Commerce/btn_sign_in'))
+WebUI.click(findTestObject('Login/btn_sign_in'))
 
-WebUI.click(findTestObject('Login with invalid credentials/Page_QWERTY E-Commerce/msg_invalid_email_or_password'))
+WebUI.click(findTestObject('Login/msg_invalid_email_or_password'))
 
 WebUI.closeBrowser()
 
